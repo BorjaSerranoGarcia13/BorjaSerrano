@@ -1,0 +1,337 @@
+\hypertarget{class_bs_label}{}\doxysection{Bs\+Label Class Reference}
+\label{class_bs_label}\index{BsLabel@{BsLabel}}
+
+
+{\ttfamily \#include $<$bs\+\_\+label.\+h$>$}
+
+Inheritance diagram for Bs\+Label\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_bs_label}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_bs_label_a710d6f0d506c5f10aca14494eef7bf1c}{Bs\+Label}} ()
+\begin{DoxyCompactList}\small\item\em METHODS. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bs_label_a1599470bd70e93ea6f034e1d82359b69}\label{class_bs_label_a1599470bd70e93ea6f034e1d82359b69}} 
+virtual \mbox{\hyperlink{class_bs_label_a1599470bd70e93ea6f034e1d82359b69}{$\sim$\+Bs\+Label}} ()
+\begin{DoxyCompactList}\small\item\em vistual destroyer \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bs_label_a7827e1ca021b875f863e63dda00db209}\label{class_bs_label_a7827e1ca021b875f863e63dda00db209}} 
+{\bfseries Bs\+Label} (const \mbox{\hyperlink{class_bs_label}{Bs\+Label}} \&copy)
+\item 
+void \mbox{\hyperlink{class_bs_label_a71d0758adc5c196c045379b2340675d9}{init}} () override
+\begin{DoxyCompactList}\small\item\em innits the object \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bs_label_a816dcc01d95cbe9a8f1cfbe5f170b9ea}{init}} (const char $\ast$data, const char $\ast$font\+\_\+src, int size)
+\begin{DoxyCompactList}\small\item\em init manually \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bs_label_aee9a242fb1278e4245082df49fc20412}\label{class_bs_label_aee9a242fb1278e4245082df49fc20412}} 
+void {\bfseries init} (const char $\ast$data, const char $\ast$font\+\_\+src, int size, sf\+::\+Vector2f \mbox{\hyperlink{class_bs_label_a44a258210289b76a5a86ed94e9577e41}{position}}, float \mbox{\hyperlink{class_bs_label_a0d581988d5e9d5b62c581edda3a96ffb}{rotation}}, sf\+::\+Vector2f \mbox{\hyperlink{class_bs_label_a9fda8a821110fd69e9db9fb93830eb4f}{scale}}, uint8\+\_\+t border\+\_\+color\mbox{[}4\mbox{]}, uint8\+\_\+t fill\+\_\+color\mbox{[}4\mbox{]})
+\item 
+void \mbox{\hyperlink{class_bs_label_abbc10fb17fcabcff4f29f17a70684a22}{set\+\_\+rotation}} (float rot) override
+\begin{DoxyCompactList}\small\item\em set the rot \end{DoxyCompactList}\item 
+sf\+::\+Vector2f \mbox{\hyperlink{class_bs_label_a44a258210289b76a5a86ed94e9577e41}{position}} () override
+\begin{DoxyCompactList}\small\item\em get the position \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bs_label_a9433758137a4da69b2bded30419ab9e0}{set\+\_\+position}} (sf\+::\+Vector2f pos) override
+\begin{DoxyCompactList}\small\item\em set the pos \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_bs_label_a0d581988d5e9d5b62c581edda3a96ffb}{rotation}} () override
+\begin{DoxyCompactList}\small\item\em get the rotation \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bs_label_a3ccfb8106f7eccc5c0142f0c717b2ca0}{set\+\_\+border\+\_\+color}} (uint8\+\_\+t color\+\_\+r, uint8\+\_\+t color\+\_\+g, uint8\+\_\+t color\+\_\+b, uint8\+\_\+t color\+\_\+a)
+\begin{DoxyCompactList}\small\item\em set border color \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bs_label_ab72f60b4da940b36a61bb4b1efaaac4c}{set\+\_\+fill\+\_\+color}} (uint8\+\_\+t color\+\_\+r, uint8\+\_\+t color\+\_\+g, uint8\+\_\+t color\+\_\+b, uint8\+\_\+t color\+\_\+a)
+\begin{DoxyCompactList}\small\item\em set fill color \end{DoxyCompactList}\item 
+sf\+::\+Vector2f \mbox{\hyperlink{class_bs_label_a9fda8a821110fd69e9db9fb93830eb4f}{scale}} () override
+\begin{DoxyCompactList}\small\item\em set the pos \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bs_label_a379ef1bcd6ab7f88d4e2fdff61ae8777}{set\+\_\+scale}} (sf\+::\+Vector2f \mbox{\hyperlink{class_bs_label_a9fda8a821110fd69e9db9fb93830eb4f}{scale}}) override
+\begin{DoxyCompactList}\small\item\em set the scale \end{DoxyCompactList}\item 
+const sf\+::\+String \mbox{\hyperlink{class_bs_label_a6f7a3d5a02471a74805fd9550b36029b}{text}} ()
+\begin{DoxyCompactList}\small\item\em get the text \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bs_label_afa036d54d251e9d803b2dabaaab822fb}{set\+\_\+text}} (const std\+::string \&data)
+\begin{DoxyCompactList}\small\item\em set the pos \end{DoxyCompactList}\item 
+const sf\+::\+Font $\ast$ \mbox{\hyperlink{class_bs_label_a8861d6a20ad511c33ef71cdddd23abb3}{font}} ()
+\begin{DoxyCompactList}\small\item\em get the font \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bs_label_aff4918d1bcb0d11d4cf2c0ade6828802}{set\+\_\+font}} (const char $\ast$font\+\_\+src)
+\begin{DoxyCompactList}\small\item\em set the font\+\_\+src \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bs_label_a35019000054fe7d55acf14cf2390838b}\label{class_bs_label_a35019000054fe7d55acf14cf2390838b}} 
+void \mbox{\hyperlink{class_bs_label_a35019000054fe7d55acf14cf2390838b}{draw}} (sf\+::\+Render\+Window \&window) override
+\begin{DoxyCompactList}\small\item\em draws the label character election \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_bs_label_a652c769e9e7902e75f8d33335f9630c1}\label{class_bs_label_a652c769e9e7902e75f8d33335f9630c1}} 
+sf\+::\+Font {\bfseries font\+\_\+}
+\item 
+\mbox{\Hypertarget{class_bs_label_ab48a80c14223b6e8085a3b569c1c15f7}\label{class_bs_label_ab48a80c14223b6e8085a3b569c1c15f7}} 
+sf\+::\+Text {\bfseries text\+\_\+}
+\item 
+\mbox{\Hypertarget{class_bs_label_a2a5be22a8f897347ac2b79c7101442b7}\label{class_bs_label_a2a5be22a8f897347ac2b79c7101442b7}} 
+float {\bfseries rotation\+\_\+}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Author\+: Borja Serrano \href{mailto:serranoga@esat-alumni.com}{\texttt{ serranoga@esat-\/alumni.\+com}} Filename\+: \mbox{\hyperlink{bs__label_8h_source}{Bs\+\_\+label.\+h}}
+
+Implementation\+: label class 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_bs_label_a710d6f0d506c5f10aca14494eef7bf1c}\label{class_bs_label_a710d6f0d506c5f10aca14494eef7bf1c}} 
+\index{BsLabel@{BsLabel}!BsLabel@{BsLabel}}
+\index{BsLabel@{BsLabel}!BsLabel@{BsLabel}}
+\doxysubsubsection{\texorpdfstring{BsLabel()}{BsLabel()}}
+{\footnotesize\ttfamily Bs\+Label\+::\+Bs\+Label (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+METHODS. 
+
+constructor of class 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_bs_label_a8861d6a20ad511c33ef71cdddd23abb3}\label{class_bs_label_a8861d6a20ad511c33ef71cdddd23abb3}} 
+\index{BsLabel@{BsLabel}!font@{font}}
+\index{font@{font}!BsLabel@{BsLabel}}
+\doxysubsubsection{\texorpdfstring{font()}{font()}}
+{\footnotesize\ttfamily const sf\+::\+Font$\ast$ Bs\+Label\+::font (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get the font 
+
+\begin{DoxyReturn}{Returns}
+the font 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_bs_label_a71d0758adc5c196c045379b2340675d9}\label{class_bs_label_a71d0758adc5c196c045379b2340675d9}} 
+\index{BsLabel@{BsLabel}!init@{init}}
+\index{init@{init}!BsLabel@{BsLabel}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Bs\+Label\+::init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+innits the object 
+
+virtual init to heredate the variables 
+
+Reimplemented from \mbox{\hyperlink{class_bs_entity_a76eeca52d7ebe7c0b0d892f123c4c6e7}{Bs\+Entity}}.
+
+\mbox{\Hypertarget{class_bs_label_a816dcc01d95cbe9a8f1cfbe5f170b9ea}\label{class_bs_label_a816dcc01d95cbe9a8f1cfbe5f170b9ea}} 
+\index{BsLabel@{BsLabel}!init@{init}}
+\index{init@{init}!BsLabel@{BsLabel}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Bs\+Label\+::init (\begin{DoxyParamCaption}\item[{const char $\ast$}]{data,  }\item[{const char $\ast$}]{font\+\_\+src,  }\item[{int}]{size }\end{DoxyParamCaption})}
+
+
+
+init manually 
+
+
+\begin{DoxyParams}{Parameters}
+{\em char$\ast$} & data pointer to data \\
+\hline
+{\em char$\ast$} & font\+\_\+src pointer to font\+\_\+src \\
+\hline
+{\em size} & the size to set \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_bs_label_a44a258210289b76a5a86ed94e9577e41}\label{class_bs_label_a44a258210289b76a5a86ed94e9577e41}} 
+\index{BsLabel@{BsLabel}!position@{position}}
+\index{position@{position}!BsLabel@{BsLabel}}
+\doxysubsubsection{\texorpdfstring{position()}{position()}}
+{\footnotesize\ttfamily sf\+::\+Vector2f Bs\+Label\+::position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+get the position 
+
+\begin{DoxyReturn}{Returns}
+the position get the position 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_bs_entity_ab9a3c31a6b8e6f112434f2d9a9f71cc6}{Bs\+Entity}}.
+
+\mbox{\Hypertarget{class_bs_label_a0d581988d5e9d5b62c581edda3a96ffb}\label{class_bs_label_a0d581988d5e9d5b62c581edda3a96ffb}} 
+\index{BsLabel@{BsLabel}!rotation@{rotation}}
+\index{rotation@{rotation}!BsLabel@{BsLabel}}
+\doxysubsubsection{\texorpdfstring{rotation()}{rotation()}}
+{\footnotesize\ttfamily float Bs\+Label\+::rotation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+get the rotation 
+
+\begin{DoxyReturn}{Returns}
+the rotation get the rotation 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_bs_entity_a23dd46e8d01d0896d61140c1c49e56d3}{Bs\+Entity}}.
+
+\mbox{\Hypertarget{class_bs_label_a9fda8a821110fd69e9db9fb93830eb4f}\label{class_bs_label_a9fda8a821110fd69e9db9fb93830eb4f}} 
+\index{BsLabel@{BsLabel}!scale@{scale}}
+\index{scale@{scale}!BsLabel@{BsLabel}}
+\doxysubsubsection{\texorpdfstring{scale()}{scale()}}
+{\footnotesize\ttfamily sf\+::\+Vector2f Bs\+Label\+::scale (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+set the pos 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos} & value to set \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_bs_entity_a89bba8ef1fe33a81ecf7d753a6390dc1}{Bs\+Entity}}.
+
+\mbox{\Hypertarget{class_bs_label_a3ccfb8106f7eccc5c0142f0c717b2ca0}\label{class_bs_label_a3ccfb8106f7eccc5c0142f0c717b2ca0}} 
+\index{BsLabel@{BsLabel}!set\_border\_color@{set\_border\_color}}
+\index{set\_border\_color@{set\_border\_color}!BsLabel@{BsLabel}}
+\doxysubsubsection{\texorpdfstring{set\_border\_color()}{set\_border\_color()}}
+{\footnotesize\ttfamily void Bs\+Label\+::set\+\_\+border\+\_\+color (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{color\+\_\+r,  }\item[{uint8\+\_\+t}]{color\+\_\+g,  }\item[{uint8\+\_\+t}]{color\+\_\+b,  }\item[{uint8\+\_\+t}]{color\+\_\+a }\end{DoxyParamCaption})}
+
+
+
+set border color 
+
+
+\begin{DoxyParams}{Parameters}
+{\em color\+\_\+r} & set color\+\_\+r \\
+\hline
+{\em color\+\_\+g} & set color\+\_\+g \\
+\hline
+{\em color\+\_\+b} & set color\+\_\+b \\
+\hline
+{\em color\+\_\+a} & set the visibility \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_bs_label_ab72f60b4da940b36a61bb4b1efaaac4c}\label{class_bs_label_ab72f60b4da940b36a61bb4b1efaaac4c}} 
+\index{BsLabel@{BsLabel}!set\_fill\_color@{set\_fill\_color}}
+\index{set\_fill\_color@{set\_fill\_color}!BsLabel@{BsLabel}}
+\doxysubsubsection{\texorpdfstring{set\_fill\_color()}{set\_fill\_color()}}
+{\footnotesize\ttfamily void Bs\+Label\+::set\+\_\+fill\+\_\+color (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{color\+\_\+r,  }\item[{uint8\+\_\+t}]{color\+\_\+g,  }\item[{uint8\+\_\+t}]{color\+\_\+b,  }\item[{uint8\+\_\+t}]{color\+\_\+a }\end{DoxyParamCaption})}
+
+
+
+set fill color 
+
+
+\begin{DoxyParams}{Parameters}
+{\em color\+\_\+r} & set color\+\_\+r \\
+\hline
+{\em color\+\_\+g} & set color\+\_\+g \\
+\hline
+{\em color\+\_\+b} & set color\+\_\+b \\
+\hline
+{\em color\+\_\+a} & set the visibility \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_bs_label_aff4918d1bcb0d11d4cf2c0ade6828802}\label{class_bs_label_aff4918d1bcb0d11d4cf2c0ade6828802}} 
+\index{BsLabel@{BsLabel}!set\_font@{set\_font}}
+\index{set\_font@{set\_font}!BsLabel@{BsLabel}}
+\doxysubsubsection{\texorpdfstring{set\_font()}{set\_font()}}
+{\footnotesize\ttfamily void Bs\+Label\+::set\+\_\+font (\begin{DoxyParamCaption}\item[{const char $\ast$}]{font\+\_\+src }\end{DoxyParamCaption})}
+
+
+
+set the font\+\_\+src 
+
+
+\begin{DoxyParams}{Parameters}
+{\em font\+\_\+src} & value to set \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_bs_label_a9433758137a4da69b2bded30419ab9e0}\label{class_bs_label_a9433758137a4da69b2bded30419ab9e0}} 
+\index{BsLabel@{BsLabel}!set\_position@{set\_position}}
+\index{set\_position@{set\_position}!BsLabel@{BsLabel}}
+\doxysubsubsection{\texorpdfstring{set\_position()}{set\_position()}}
+{\footnotesize\ttfamily void Bs\+Label\+::set\+\_\+position (\begin{DoxyParamCaption}\item[{sf\+::\+Vector2f}]{pos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+set the pos 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos} & value to set \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_bs_entity_a4617a0f8425d9729a5b529b4f7f0cd72}{Bs\+Entity}}.
+
+\mbox{\Hypertarget{class_bs_label_abbc10fb17fcabcff4f29f17a70684a22}\label{class_bs_label_abbc10fb17fcabcff4f29f17a70684a22}} 
+\index{BsLabel@{BsLabel}!set\_rotation@{set\_rotation}}
+\index{set\_rotation@{set\_rotation}!BsLabel@{BsLabel}}
+\doxysubsubsection{\texorpdfstring{set\_rotation()}{set\_rotation()}}
+{\footnotesize\ttfamily void Bs\+Label\+::set\+\_\+rotation (\begin{DoxyParamCaption}\item[{float}]{rot }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+set the rot 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rot} & value to set set the rotation \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_bs_entity_ac06b768b4682563c71bfab652869b560}{Bs\+Entity}}.
+
+\mbox{\Hypertarget{class_bs_label_a379ef1bcd6ab7f88d4e2fdff61ae8777}\label{class_bs_label_a379ef1bcd6ab7f88d4e2fdff61ae8777}} 
+\index{BsLabel@{BsLabel}!set\_scale@{set\_scale}}
+\index{set\_scale@{set\_scale}!BsLabel@{BsLabel}}
+\doxysubsubsection{\texorpdfstring{set\_scale()}{set\_scale()}}
+{\footnotesize\ttfamily void Bs\+Label\+::set\+\_\+scale (\begin{DoxyParamCaption}\item[{sf\+::\+Vector2f}]{scale }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+set the scale 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scale} & value to set \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_bs_entity_a285a5623fbfd0693a1c655d6bd984954}{Bs\+Entity}}.
+
+\mbox{\Hypertarget{class_bs_label_afa036d54d251e9d803b2dabaaab822fb}\label{class_bs_label_afa036d54d251e9d803b2dabaaab822fb}} 
+\index{BsLabel@{BsLabel}!set\_text@{set\_text}}
+\index{set\_text@{set\_text}!BsLabel@{BsLabel}}
+\doxysubsubsection{\texorpdfstring{set\_text()}{set\_text()}}
+{\footnotesize\ttfamily void Bs\+Label\+::set\+\_\+text (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{data }\end{DoxyParamCaption})}
+
+
+
+set the pos 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos} & value to set \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_bs_label_a6f7a3d5a02471a74805fd9550b36029b}\label{class_bs_label_a6f7a3d5a02471a74805fd9550b36029b}} 
+\index{BsLabel@{BsLabel}!text@{text}}
+\index{text@{text}!BsLabel@{BsLabel}}
+\doxysubsubsection{\texorpdfstring{text()}{text()}}
+{\footnotesize\ttfamily const sf\+::\+String Bs\+Label\+::text (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get the text 
+
+\begin{DoxyReturn}{Returns}
+the text 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/bs\+\_\+label.\+h\end{DoxyCompactItemize}

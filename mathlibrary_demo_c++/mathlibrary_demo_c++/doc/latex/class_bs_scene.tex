@@ -1,0 +1,93 @@
+\hypertarget{class_bs_scene}{}\doxysection{Bs\+Scene Class Reference}
+\label{class_bs_scene}\index{BsScene@{BsScene}}
+
+
+{\ttfamily \#include $<$bs\+\_\+scene.\+h$>$}
+
+Inheritance diagram for Bs\+Scene\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_bs_scene}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_bs_scene_aa49ed665cfda3b974d1cf8020f5f60f9}\label{class_bs_scene_aa49ed665cfda3b974d1cf8020f5f60f9}} 
+enum {\bfseries Type\+Scene} \{ {\bfseries k\+Type\+Scene\+\_\+\+Login\+Sign} = 0
+, {\bfseries k\+Type\+Scene\+\_\+\+Start} = 1
+, {\bfseries k\+Type\+Scene\+\_\+\+Board} = 2
+, {\bfseries k\+Type\+Scene\+\_\+\+Game\+Over} = 3
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_bs_scene_a8a6e67e9ca22e445780ab6084bf825bd}\label{class_bs_scene_a8a6e67e9ca22e445780ab6084bf825bd}} 
+\mbox{\hyperlink{class_bs_scene_a8a6e67e9ca22e445780ab6084bf825bd}{Bs\+Scene}} ()
+\begin{DoxyCompactList}\small\item\em constructor of class \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bs_scene_ae7de5807ebfbda4ef403c59ae6208b3b}\label{class_bs_scene_ae7de5807ebfbda4ef403c59ae6208b3b}} 
+\mbox{\hyperlink{class_bs_scene_ae7de5807ebfbda4ef403c59ae6208b3b}{$\sim$\+Bs\+Scene}} ()
+\begin{DoxyCompactList}\small\item\em Destructor used to initilizate the class. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_bs_scene_a1df2d77f8903dae6c3185a6cff3edf26}{init}} ()=0
+\item 
+virtual void \mbox{\hyperlink{class_bs_scene_adb127341ab33dfe8a8c6e20f10c47e0e}{update}} ()=0
+\item 
+virtual void \mbox{\hyperlink{class_bs_scene_a65fc71b8b81e99808bb266da6b687ae9}{draw}} (sf\+::\+Render\+Window \&window)=0
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_bs_scene_ad93ebbac6a7f18432d77b46eee8073b8}\label{class_bs_scene_ad93ebbac6a7f18432d77b46eee8073b8}} 
+uint8\+\_\+t {\bfseries enabled\+\_\+}
+\item 
+\mbox{\Hypertarget{class_bs_scene_a87bf6b8e297cc7f0d201376f104e0c0c}\label{class_bs_scene_a87bf6b8e297cc7f0d201376f104e0c0c}} 
+int {\bfseries tag\+\_\+}
+\item 
+\mbox{\Hypertarget{class_bs_scene_ae00d72d279a80a03850337f8167fbdeb}\label{class_bs_scene_ae00d72d279a80a03850337f8167fbdeb}} 
+\mbox{\hyperlink{class_bs_label}{Bs\+Label}} $\ast$ {\bfseries label\+\_\+} = nullptr
+\item 
+\mbox{\Hypertarget{class_bs_scene_a6ac00e7d71f29140449b979d22754ccc}\label{class_bs_scene_a6ac00e7d71f29140449b979d22754ccc}} 
+uint8\+\_\+t {\bfseries size\+\_\+label\+\_\+}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+/$\ast$ Class scene /$\ast$ manage evrything from the scene, gameplay 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_bs_scene_a65fc71b8b81e99808bb266da6b687ae9}\label{class_bs_scene_a65fc71b8b81e99808bb266da6b687ae9}} 
+\index{BsScene@{BsScene}!draw@{draw}}
+\index{draw@{draw}!BsScene@{BsScene}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily virtual void Bs\+Scene\+::draw (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{window }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+virtaul void to draw entity 
+
+Implemented in \mbox{\hyperlink{class_bs_scene_vector_ad7da0b92b20be5698fac92e2579f0e3a}{Bs\+Scene\+Vector}}, and \mbox{\hyperlink{class_bs_scene_matrix_afcc36c3ce6af8c82c897eda8da57a69b}{Bs\+Scene\+Matrix}}.
+
+\mbox{\Hypertarget{class_bs_scene_a1df2d77f8903dae6c3185a6cff3edf26}\label{class_bs_scene_a1df2d77f8903dae6c3185a6cff3edf26}} 
+\index{BsScene@{BsScene}!init@{init}}
+\index{init@{init}!BsScene@{BsScene}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily virtual void Bs\+Scene\+::init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+virtual init to heredate the variables 
+
+Implemented in \mbox{\hyperlink{class_bs_scene_vector_aae22ed03339201989c850b4f4d0b1724}{Bs\+Scene\+Vector}}, and \mbox{\hyperlink{class_bs_scene_matrix_af32d29976ba150ca3e3b5881b87c3a3b}{Bs\+Scene\+Matrix}}.
+
+\mbox{\Hypertarget{class_bs_scene_adb127341ab33dfe8a8c6e20f10c47e0e}\label{class_bs_scene_adb127341ab33dfe8a8c6e20f10c47e0e}} 
+\index{BsScene@{BsScene}!update@{update}}
+\index{update@{update}!BsScene@{BsScene}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily virtual void Bs\+Scene\+::update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+virtual init to heredate the variables 
+
+Implemented in \mbox{\hyperlink{class_bs_scene_vector_aa5057b5123fe1efe7da84aed25a49438}{Bs\+Scene\+Vector}}, and \mbox{\hyperlink{class_bs_scene_matrix_af7ea91d6052c9430db44dd2f21a273cc}{Bs\+Scene\+Matrix}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/bs\+\_\+scene.\+h\end{DoxyCompactItemize}

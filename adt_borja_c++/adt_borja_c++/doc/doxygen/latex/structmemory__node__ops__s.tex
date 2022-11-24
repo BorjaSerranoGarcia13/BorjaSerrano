@@ -1,0 +1,333 @@
+\hypertarget{structmemory__node__ops__s}{}\doxysection{memory\+\_\+node\+\_\+ops\+\_\+s Struct Reference}
+\label{structmemory__node__ops__s}\index{memory\_node\_ops\_s@{memory\_node\_ops\_s}}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{structmemory__node__ops__s_a35f5ace76d5fd899597761eef516ba0a}\label{structmemory__node__ops__s_a35f5ace76d5fd899597761eef516ba0a}} 
+void $\ast$($\ast$ {\bfseries data} )(\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node)
+\item 
+\mbox{\Hypertarget{structmemory__node__ops__s_a7b21a53d026216de8e44299e4b6191fb}\label{structmemory__node__ops__s_a7b21a53d026216de8e44299e4b6191fb}} 
+s16($\ast$ {\bfseries set\+Data} )(\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node, void $\ast$src, u16 bytes)
+\item 
+\mbox{\Hypertarget{structmemory__node__ops__s_aac6e0ccb9192cefc1fc6ec9826a11f90}\label{structmemory__node__ops__s_aac6e0ccb9192cefc1fc6ec9826a11f90}} 
+u16($\ast$ {\bfseries size} )(\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node)
+\item 
+s16($\ast$ \mbox{\hyperlink{structmemory__node__ops__s_a8a9d4846b4b5628d9994467f6f492b81}{reset}} )(\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node)
+\begin{DoxyCompactList}\small\item\em reset content of memory node \end{DoxyCompactList}\item 
+s16($\ast$ \mbox{\hyperlink{structmemory__node__ops__s_ab9adcf8cfabe0cb9f9caf7e4e951336b}{soft\+Reset}} )(\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node)
+\begin{DoxyCompactList}\small\item\em reset content of memory node without freeing the data \end{DoxyCompactList}\item 
+s16($\ast$ \mbox{\hyperlink{structmemory__node__ops__s_a4aa7e3fddd741a67bea6f10a038f4ca3}{free}} )(\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node)
+\begin{DoxyCompactList}\small\item\em free memory, both data and node \end{DoxyCompactList}\item 
+s16($\ast$ \mbox{\hyperlink{structmemory__node__ops__s_ae4051770ae5b967032031129d6a8c844}{soft\+Free}} )(\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node)
+\begin{DoxyCompactList}\small\item\em free only the node \end{DoxyCompactList}\item 
+s16($\ast$ \mbox{\hyperlink{structmemory__node__ops__s_a25eeed1bed000ce61e20eb1889710be1}{mem\+Set}} )(\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node, u8 value)
+\begin{DoxyCompactList}\small\item\em sets the data of a node \end{DoxyCompactList}\item 
+s16($\ast$ \mbox{\hyperlink{structmemory__node__ops__s_a6e6960186601b2a4dcfec2a33438b15b}{mem\+Copy}} )(\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node, void $\ast$src, u16 bytes)
+\begin{DoxyCompactList}\small\item\em copys the data from a src \end{DoxyCompactList}\item 
+s16($\ast$ \mbox{\hyperlink{structmemory__node__ops__s_a6cadae4d06b8349242302acc28c2df52}{mem\+Concat}} )(\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node, void $\ast$src, u16 bytes)
+\begin{DoxyCompactList}\small\item\em concats the data from a src \end{DoxyCompactList}\item 
+s16($\ast$ \mbox{\hyperlink{structmemory__node__ops__s_a4499ba5d3e916cca07fe69339acb9703}{mem\+Mask}} )(\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node, u8 mask)
+\begin{DoxyCompactList}\small\item\em masks a node \end{DoxyCompactList}\item 
+void($\ast$ \mbox{\hyperlink{structmemory__node__ops__s_ad5a051d70388c508b600399b0cca0973}{print}} )(\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node)
+\begin{DoxyCompactList}\small\item\em Prints node information, such as the data the memory direction of the node (and the data), and the size. \end{DoxyCompactList}\item 
+s16($\ast$ \mbox{\hyperlink{structmemory__node__ops__s_a854ca54de69636403091fd6822d1b93d}{set\+Next}} )(\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node, \mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node2)
+\begin{DoxyCompactList}\small\item\em sets the data of a next node \end{DoxyCompactList}\item 
+\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$($\ast$ \mbox{\hyperlink{structmemory__node__ops__s_aa12d73ff5c4c8ef05e3f0f0286296c46}{get\+Next}} )(\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node)
+\begin{DoxyCompactList}\small\item\em gets the data of a next node \end{DoxyCompactList}\item 
+s16($\ast$ \mbox{\hyperlink{structmemory__node__ops__s_a81fa8889d645cd3889717bc2baf9f209}{set\+Prev}} )(\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node, \mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node2)
+\begin{DoxyCompactList}\small\item\em sets the data of a prev node \end{DoxyCompactList}\item 
+\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$($\ast$ \mbox{\hyperlink{structmemory__node__ops__s_ae904c8d27c7cde30d63d62c91bb3b1a3}{get\+Prev}} )(\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node)
+\begin{DoxyCompactList}\small\item\em gets the data of a prev node \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{structmemory__node__ops__s_a4aa7e3fddd741a67bea6f10a038f4ca3}\label{structmemory__node__ops__s_a4aa7e3fddd741a67bea6f10a038f4ca3}} 
+\index{memory\_node\_ops\_s@{memory\_node\_ops\_s}!free@{free}}
+\index{free@{free}!memory\_node\_ops\_s@{memory\_node\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{free}{free}}
+{\footnotesize\ttfamily s16($\ast$ memory\+\_\+node\+\_\+ops\+\_\+s\+::free) (\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node)}
+
+
+
+free memory, both data and node 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$node} & pointer to the node.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+k\+Error\+Code\+\_\+\+Ok When function has done his job. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{structmemory__node__ops__s_aa12d73ff5c4c8ef05e3f0f0286296c46}\label{structmemory__node__ops__s_aa12d73ff5c4c8ef05e3f0f0286296c46}} 
+\index{memory\_node\_ops\_s@{memory\_node\_ops\_s}!getNext@{getNext}}
+\index{getNext@{getNext}!memory\_node\_ops\_s@{memory\_node\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{getNext}{getNext}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structmemory__node__s}{Memory\+Node}}$\ast$($\ast$ memory\+\_\+node\+\_\+ops\+\_\+s\+::get\+Next) (\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node)}
+
+
+
+gets the data of a next node 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$node} & pointer to the node. \\
+\hline
+{\em value} & The value to set.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+NULL When node is NULL, node next is NULL. 
+
+node next. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{structmemory__node__ops__s_ae904c8d27c7cde30d63d62c91bb3b1a3}\label{structmemory__node__ops__s_ae904c8d27c7cde30d63d62c91bb3b1a3}} 
+\index{memory\_node\_ops\_s@{memory\_node\_ops\_s}!getPrev@{getPrev}}
+\index{getPrev@{getPrev}!memory\_node\_ops\_s@{memory\_node\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{getPrev}{getPrev}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structmemory__node__s}{Memory\+Node}}$\ast$($\ast$ memory\+\_\+node\+\_\+ops\+\_\+s\+::get\+Prev) (\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node)}
+
+
+
+gets the data of a prev node 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$node} & pointer to the node. \\
+\hline
+{\em value} & The value to set.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+NULL When node is NULL, node prev is NULL. 
+
+node prev. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{structmemory__node__ops__s_a6cadae4d06b8349242302acc28c2df52}\label{structmemory__node__ops__s_a6cadae4d06b8349242302acc28c2df52}} 
+\index{memory\_node\_ops\_s@{memory\_node\_ops\_s}!memConcat@{memConcat}}
+\index{memConcat@{memConcat}!memory\_node\_ops\_s@{memory\_node\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{memConcat}{memConcat}}
+{\footnotesize\ttfamily s16($\ast$ memory\+\_\+node\+\_\+ops\+\_\+s\+::mem\+Concat) (\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node, void $\ast$src, u16 bytes)}
+
+
+
+concats the data from a src 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$node} & pointer to the node. \\
+\hline
+{\em $\ast$void} & src pointer to the source to concat from. \\
+\hline
+{\em bytes} & Size of the data.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+k\+Error\+Code\+\_\+\+Node\+\_\+\+NULLNode When node is NULL. 
+
+k\+Error\+Code\+\_\+\+Node\+\_\+\+NULLData When node data is NULL. 
+
+k\+Error\+Code\+\_\+\+Parameters\+\_\+\+NULL When node src is NULL. 
+
+k\+Error\+Code\+\_\+\+Memory\+Allocation When cant reserve memory. 
+
+k\+Error\+Code\+\_\+\+Ok When function has done his job. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{structmemory__node__ops__s_a6e6960186601b2a4dcfec2a33438b15b}\label{structmemory__node__ops__s_a6e6960186601b2a4dcfec2a33438b15b}} 
+\index{memory\_node\_ops\_s@{memory\_node\_ops\_s}!memCopy@{memCopy}}
+\index{memCopy@{memCopy}!memory\_node\_ops\_s@{memory\_node\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{memCopy}{memCopy}}
+{\footnotesize\ttfamily s16($\ast$ memory\+\_\+node\+\_\+ops\+\_\+s\+::mem\+Copy) (\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node, void $\ast$src, u16 bytes)}
+
+
+
+copys the data from a src 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$node} & pointer to the node. \\
+\hline
+{\em $\ast$void} & src pointer to Source to copy from. \\
+\hline
+{\em bytes} & Size of the data.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+k\+Error\+Code\+\_\+\+Node\+\_\+\+NULLNode When node is NULL. 
+
+k\+Error\+Code\+\_\+\+Parameters\+\_\+\+NULL When node src is NULL. 
+
+k\+Error\+Code\+\_\+\+Parameters\+\_\+\+Zero When node src is 0. 
+
+k\+Error\+Code\+\_\+\+Memory\+Allocation When cant reserve memory. 
+
+k\+Error\+Code\+\_\+\+Ok When function has done his job. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{structmemory__node__ops__s_a4499ba5d3e916cca07fe69339acb9703}\label{structmemory__node__ops__s_a4499ba5d3e916cca07fe69339acb9703}} 
+\index{memory\_node\_ops\_s@{memory\_node\_ops\_s}!memMask@{memMask}}
+\index{memMask@{memMask}!memory\_node\_ops\_s@{memory\_node\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{memMask}{memMask}}
+{\footnotesize\ttfamily s16($\ast$ memory\+\_\+node\+\_\+ops\+\_\+s\+::mem\+Mask) (\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node, u8 mask)}
+
+
+
+masks a node 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$node} & pointer to the node. \\
+\hline
+{\em mask} & The mask for the node.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+k\+Error\+Code\+\_\+\+Node\+\_\+\+NULLNode When node is NULL. 
+
+k\+Error\+Code\+\_\+\+Node\+\_\+\+NULLData When node data is NULL. 
+
+k\+Error\+Code\+\_\+\+Ok When function has done his job. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{structmemory__node__ops__s_a25eeed1bed000ce61e20eb1889710be1}\label{structmemory__node__ops__s_a25eeed1bed000ce61e20eb1889710be1}} 
+\index{memory\_node\_ops\_s@{memory\_node\_ops\_s}!memSet@{memSet}}
+\index{memSet@{memSet}!memory\_node\_ops\_s@{memory\_node\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{memSet}{memSet}}
+{\footnotesize\ttfamily s16($\ast$ memory\+\_\+node\+\_\+ops\+\_\+s\+::mem\+Set) (\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node, u8 value)}
+
+
+
+sets the data of a node 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$node} & pointer to the node. \\
+\hline
+{\em value} & The value to set.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+k\+Error\+Code\+\_\+\+Node\+\_\+\+NULLNode When node is NULL. 
+
+k\+Error\+Code\+\_\+\+Node\+\_\+\+NULLData When node data is NULL. 
+
+k\+Error\+Code\+\_\+\+Ok When function has done his job. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{structmemory__node__ops__s_ad5a051d70388c508b600399b0cca0973}\label{structmemory__node__ops__s_ad5a051d70388c508b600399b0cca0973}} 
+\index{memory\_node\_ops\_s@{memory\_node\_ops\_s}!print@{print}}
+\index{print@{print}!memory\_node\_ops\_s@{memory\_node\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{print}{print}}
+{\footnotesize\ttfamily void($\ast$ memory\+\_\+node\+\_\+ops\+\_\+s\+::print) (\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node)}
+
+
+
+Prints node information, such as the data the memory direction of the node (and the data), and the size. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$node} & pointer to the node. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structmemory__node__ops__s_a8a9d4846b4b5628d9994467f6f492b81}\label{structmemory__node__ops__s_a8a9d4846b4b5628d9994467f6f492b81}} 
+\index{memory\_node\_ops\_s@{memory\_node\_ops\_s}!reset@{reset}}
+\index{reset@{reset}!memory\_node\_ops\_s@{memory\_node\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{reset}{reset}}
+{\footnotesize\ttfamily s16($\ast$ memory\+\_\+node\+\_\+ops\+\_\+s\+::reset) (\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node)}
+
+
+
+reset content of memory node 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$node} & pointer to the node.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+k\+Error\+Code\+\_\+\+Node\+\_\+\+NULLNode When node is NULL. 
+
+k\+Error\+Code\+\_\+\+Ok When function has done his job. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{structmemory__node__ops__s_a854ca54de69636403091fd6822d1b93d}\label{structmemory__node__ops__s_a854ca54de69636403091fd6822d1b93d}} 
+\index{memory\_node\_ops\_s@{memory\_node\_ops\_s}!setNext@{setNext}}
+\index{setNext@{setNext}!memory\_node\_ops\_s@{memory\_node\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{setNext}{setNext}}
+{\footnotesize\ttfamily s16($\ast$ memory\+\_\+node\+\_\+ops\+\_\+s\+::set\+Next) (\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node, \mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node2)}
+
+
+
+sets the data of a next node 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$node} & pointer to the node. \\
+\hline
+{\em value} & The value to set.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+k\+Error\+Code\+\_\+\+Node\+\_\+\+NULLNode When node is NULL. 
+
+k\+Error\+Code\+\_\+\+Ok When function has done his job. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{structmemory__node__ops__s_a81fa8889d645cd3889717bc2baf9f209}\label{structmemory__node__ops__s_a81fa8889d645cd3889717bc2baf9f209}} 
+\index{memory\_node\_ops\_s@{memory\_node\_ops\_s}!setPrev@{setPrev}}
+\index{setPrev@{setPrev}!memory\_node\_ops\_s@{memory\_node\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{setPrev}{setPrev}}
+{\footnotesize\ttfamily s16($\ast$ memory\+\_\+node\+\_\+ops\+\_\+s\+::set\+Prev) (\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node, \mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node2)}
+
+
+
+sets the data of a prev node 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$node} & pointer to the node. \\
+\hline
+{\em value} & The value to set.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+k\+Error\+Code\+\_\+\+Node\+\_\+\+NULLNode When node is NULL. 
+
+k\+Error\+Code\+\_\+\+Ok When function has done his job. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{structmemory__node__ops__s_ae4051770ae5b967032031129d6a8c844}\label{structmemory__node__ops__s_ae4051770ae5b967032031129d6a8c844}} 
+\index{memory\_node\_ops\_s@{memory\_node\_ops\_s}!softFree@{softFree}}
+\index{softFree@{softFree}!memory\_node\_ops\_s@{memory\_node\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{softFree}{softFree}}
+{\footnotesize\ttfamily s16($\ast$ memory\+\_\+node\+\_\+ops\+\_\+s\+::soft\+Free) (\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node)}
+
+
+
+free only the node 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$node} & pointer to the node.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+k\+Error\+Code\+\_\+\+Ok When function has done his job. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{structmemory__node__ops__s_ab9adcf8cfabe0cb9f9caf7e4e951336b}\label{structmemory__node__ops__s_ab9adcf8cfabe0cb9f9caf7e4e951336b}} 
+\index{memory\_node\_ops\_s@{memory\_node\_ops\_s}!softReset@{softReset}}
+\index{softReset@{softReset}!memory\_node\_ops\_s@{memory\_node\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{softReset}{softReset}}
+{\footnotesize\ttfamily s16($\ast$ memory\+\_\+node\+\_\+ops\+\_\+s\+::soft\+Reset) (\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$node)}
+
+
+
+reset content of memory node without freeing the data 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$node} & pointer to the node.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+k\+Error\+Code\+\_\+\+Ok When function has done his job. 
+\end{DoxyReturn}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/adt\+\_\+memory\+\_\+node.\+h\end{DoxyCompactItemize}

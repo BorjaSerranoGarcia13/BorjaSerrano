@@ -1,0 +1,239 @@
+\hypertarget{structqueue__ops__s}{}\doxysection{queue\+\_\+ops\+\_\+s Struct Reference}
+\label{structqueue__ops__s}\index{queue\_ops\_s@{queue\_ops\_s}}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+s16($\ast$ \mbox{\hyperlink{structqueue__ops__s_aa28fd22e62c5233b562cf5efd307d62f}{destroy}} )(\mbox{\hyperlink{structadt__queue__s}{Queue}} $\ast$queue)
+\begin{DoxyCompactList}\small\item\em Destroys the queue and its data. \end{DoxyCompactList}\item 
+s16($\ast$ \mbox{\hyperlink{structqueue__ops__s_a98782fc9f75d0881bbedfb8f6df5da59}{reset}} )(\mbox{\hyperlink{structadt__queue__s}{Queue}} $\ast$queue)
+\begin{DoxyCompactList}\small\item\em Resets queue\textquotesingle{}s data. \end{DoxyCompactList}\item 
+u16($\ast$ \mbox{\hyperlink{structqueue__ops__s_a3a1d8dc8b0087223975729a06891f1c5}{resize}} )(\mbox{\hyperlink{structadt__queue__s}{Queue}} $\ast$queue, u16 new\+\_\+size)
+\begin{DoxyCompactList}\small\item\em Resizes the capacity of the vector. Some elements can be lost. \end{DoxyCompactList}\item 
+u16($\ast$ \mbox{\hyperlink{structqueue__ops__s_a284605ca7183e126c93dd0e661644838}{capacity}} )(\mbox{\hyperlink{structadt__queue__s}{Queue}} $\ast$queue)
+\begin{DoxyCompactList}\small\item\em returns the maximum number of elemets to store \end{DoxyCompactList}\item 
+u16($\ast$ \mbox{\hyperlink{structqueue__ops__s_af468d12ebe74ae4ddbe9589011b2db33}{length}} )(\mbox{\hyperlink{structadt__queue__s}{Queue}} $\ast$queue)
+\begin{DoxyCompactList}\small\item\em current number of elements ($<$= capacity) \end{DoxyCompactList}\item 
+bool($\ast$ \mbox{\hyperlink{structqueue__ops__s_a8575819749b45dc99ca75769774fbe9c}{is\+Empty}} )(\mbox{\hyperlink{structadt__queue__s}{Queue}} $\ast$queue)
+\begin{DoxyCompactList}\small\item\em returns if empty queue \end{DoxyCompactList}\item 
+bool($\ast$ \mbox{\hyperlink{structqueue__ops__s_a6af24337ae0341d524facb528ef72761}{is\+Full}} )(\mbox{\hyperlink{structadt__queue__s}{Queue}} $\ast$queue)
+\begin{DoxyCompactList}\small\item\em returns if full queue \end{DoxyCompactList}\item 
+void $\ast$($\ast$ \mbox{\hyperlink{structqueue__ops__s_aad2ba91a709278c1d57a47be343e6546}{front}} )(\mbox{\hyperlink{structadt__queue__s}{Queue}} $\ast$queue)
+\begin{DoxyCompactList}\small\item\em returns the front queue \end{DoxyCompactList}\item 
+void $\ast$($\ast$ \mbox{\hyperlink{structqueue__ops__s_af707a23f9a8bad5eb6348158b5c77009}{back}} )(\mbox{\hyperlink{structadt__queue__s}{Queue}} $\ast$queue)
+\begin{DoxyCompactList}\small\item\em returns the back queue \end{DoxyCompactList}\item 
+s16($\ast$ \mbox{\hyperlink{structqueue__ops__s_a2b0f5936ce897c84a905396a218d3697}{enqueue}} )(\mbox{\hyperlink{structadt__queue__s}{Queue}} $\ast$queue, void $\ast$data, u16 bytes)
+\begin{DoxyCompactList}\small\item\em insert queue \end{DoxyCompactList}\item 
+void $\ast$($\ast$ \mbox{\hyperlink{structqueue__ops__s_a5d8d3b7278d04d637d35d93effe81277}{dequeue}} )(\mbox{\hyperlink{structadt__queue__s}{Queue}} $\ast$queue)
+\begin{DoxyCompactList}\small\item\em extract queue \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{structqueue__ops__s_a740c02385011c6fdf43716e94a9144db}\label{structqueue__ops__s_a740c02385011c6fdf43716e94a9144db}} 
+s16($\ast$ {\bfseries concat} )(\mbox{\hyperlink{structadt__queue__s}{Queue}} $\ast$queue, \mbox{\hyperlink{structadt__queue__s}{Queue}} $\ast$queue\+\_\+src)
+\item 
+\mbox{\Hypertarget{structqueue__ops__s_a1604e06a84688e46cced419c6cd6d7a8}\label{structqueue__ops__s_a1604e06a84688e46cced419c6cd6d7a8}} 
+void($\ast$ {\bfseries print} )(\mbox{\hyperlink{structadt__queue__s}{Queue}} $\ast$queue)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{structqueue__ops__s_af707a23f9a8bad5eb6348158b5c77009}\label{structqueue__ops__s_af707a23f9a8bad5eb6348158b5c77009}} 
+\index{queue\_ops\_s@{queue\_ops\_s}!back@{back}}
+\index{back@{back}!queue\_ops\_s@{queue\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{back}{back}}
+{\footnotesize\ttfamily void$\ast$($\ast$ queue\+\_\+ops\+\_\+s\+::back) (\mbox{\hyperlink{structadt__queue__s}{Queue}} $\ast$queue)}
+
+
+
+returns the back queue 
+
+
+\begin{DoxyParams}{Parameters}
+{\em queue} & to do it \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true or false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{structqueue__ops__s_a284605ca7183e126c93dd0e661644838}\label{structqueue__ops__s_a284605ca7183e126c93dd0e661644838}} 
+\index{queue\_ops\_s@{queue\_ops\_s}!capacity@{capacity}}
+\index{capacity@{capacity}!queue\_ops\_s@{queue\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{capacity}{capacity}}
+{\footnotesize\ttfamily u16($\ast$ queue\+\_\+ops\+\_\+s\+::capacity) (\mbox{\hyperlink{structadt__queue__s}{Queue}} $\ast$queue)}
+
+
+
+returns the maximum number of elemets to store 
+
+
+\begin{DoxyParams}{Parameters}
+{\em queue} & to do it \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+capacity 
+\end{DoxyReturn}
+\mbox{\Hypertarget{structqueue__ops__s_a5d8d3b7278d04d637d35d93effe81277}\label{structqueue__ops__s_a5d8d3b7278d04d637d35d93effe81277}} 
+\index{queue\_ops\_s@{queue\_ops\_s}!dequeue@{dequeue}}
+\index{dequeue@{dequeue}!queue\_ops\_s@{queue\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{dequeue}{dequeue}}
+{\footnotesize\ttfamily void$\ast$($\ast$ queue\+\_\+ops\+\_\+s\+::dequeue) (\mbox{\hyperlink{structadt__queue__s}{Queue}} $\ast$queue)}
+
+
+
+extract queue 
+
+
+\begin{DoxyParams}{Parameters}
+{\em queue} & to do it \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Error\+Code 
+\end{DoxyReturn}
+\mbox{\Hypertarget{structqueue__ops__s_aa28fd22e62c5233b562cf5efd307d62f}\label{structqueue__ops__s_aa28fd22e62c5233b562cf5efd307d62f}} 
+\index{queue\_ops\_s@{queue\_ops\_s}!destroy@{destroy}}
+\index{destroy@{destroy}!queue\_ops\_s@{queue\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{destroy}{destroy}}
+{\footnotesize\ttfamily s16($\ast$ queue\+\_\+ops\+\_\+s\+::destroy) (\mbox{\hyperlink{structadt__queue__s}{Queue}} $\ast$queue)}
+
+
+
+Destroys the queue and its data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em queue} & to do it \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Code\+Error 
+\end{DoxyReturn}
+\mbox{\Hypertarget{structqueue__ops__s_a2b0f5936ce897c84a905396a218d3697}\label{structqueue__ops__s_a2b0f5936ce897c84a905396a218d3697}} 
+\index{queue\_ops\_s@{queue\_ops\_s}!enqueue@{enqueue}}
+\index{enqueue@{enqueue}!queue\_ops\_s@{queue\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{enqueue}{enqueue}}
+{\footnotesize\ttfamily s16($\ast$ queue\+\_\+ops\+\_\+s\+::enqueue) (\mbox{\hyperlink{structadt__queue__s}{Queue}} $\ast$queue, void $\ast$data, u16 bytes)}
+
+
+
+insert queue 
+
+
+\begin{DoxyParams}{Parameters}
+{\em queue} & to do it, the data and total bytes \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Error\+Code 
+\end{DoxyReturn}
+\mbox{\Hypertarget{structqueue__ops__s_aad2ba91a709278c1d57a47be343e6546}\label{structqueue__ops__s_aad2ba91a709278c1d57a47be343e6546}} 
+\index{queue\_ops\_s@{queue\_ops\_s}!front@{front}}
+\index{front@{front}!queue\_ops\_s@{queue\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{front}{front}}
+{\footnotesize\ttfamily void$\ast$($\ast$ queue\+\_\+ops\+\_\+s\+::front) (\mbox{\hyperlink{structadt__queue__s}{Queue}} $\ast$queue)}
+
+
+
+returns the front queue 
+
+
+\begin{DoxyParams}{Parameters}
+{\em queue} & to do it \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true or false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{structqueue__ops__s_a8575819749b45dc99ca75769774fbe9c}\label{structqueue__ops__s_a8575819749b45dc99ca75769774fbe9c}} 
+\index{queue\_ops\_s@{queue\_ops\_s}!isEmpty@{isEmpty}}
+\index{isEmpty@{isEmpty}!queue\_ops\_s@{queue\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{isEmpty}{isEmpty}}
+{\footnotesize\ttfamily bool($\ast$ queue\+\_\+ops\+\_\+s\+::is\+Empty) (\mbox{\hyperlink{structadt__queue__s}{Queue}} $\ast$queue)}
+
+
+
+returns if empty queue 
+
+
+\begin{DoxyParams}{Parameters}
+{\em queue} & to do it \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true or false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{structqueue__ops__s_a6af24337ae0341d524facb528ef72761}\label{structqueue__ops__s_a6af24337ae0341d524facb528ef72761}} 
+\index{queue\_ops\_s@{queue\_ops\_s}!isFull@{isFull}}
+\index{isFull@{isFull}!queue\_ops\_s@{queue\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{isFull}{isFull}}
+{\footnotesize\ttfamily bool($\ast$ queue\+\_\+ops\+\_\+s\+::is\+Full) (\mbox{\hyperlink{structadt__queue__s}{Queue}} $\ast$queue)}
+
+
+
+returns if full queue 
+
+
+\begin{DoxyParams}{Parameters}
+{\em queue} & to do it \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true or false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{structqueue__ops__s_af468d12ebe74ae4ddbe9589011b2db33}\label{structqueue__ops__s_af468d12ebe74ae4ddbe9589011b2db33}} 
+\index{queue\_ops\_s@{queue\_ops\_s}!length@{length}}
+\index{length@{length}!queue\_ops\_s@{queue\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{length}{length}}
+{\footnotesize\ttfamily u16($\ast$ queue\+\_\+ops\+\_\+s\+::length) (\mbox{\hyperlink{structadt__queue__s}{Queue}} $\ast$queue)}
+
+
+
+current number of elements ($<$= capacity) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em queue} & to do it \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+length 
+\end{DoxyReturn}
+\mbox{\Hypertarget{structqueue__ops__s_a98782fc9f75d0881bbedfb8f6df5da59}\label{structqueue__ops__s_a98782fc9f75d0881bbedfb8f6df5da59}} 
+\index{queue\_ops\_s@{queue\_ops\_s}!reset@{reset}}
+\index{reset@{reset}!queue\_ops\_s@{queue\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{reset}{reset}}
+{\footnotesize\ttfamily s16($\ast$ queue\+\_\+ops\+\_\+s\+::reset) (\mbox{\hyperlink{structadt__queue__s}{Queue}} $\ast$queue)}
+
+
+
+Resets queue\textquotesingle{}s data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em queue} & to do it \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Code\+Error 
+\end{DoxyReturn}
+\mbox{\Hypertarget{structqueue__ops__s_a3a1d8dc8b0087223975729a06891f1c5}\label{structqueue__ops__s_a3a1d8dc8b0087223975729a06891f1c5}} 
+\index{queue\_ops\_s@{queue\_ops\_s}!resize@{resize}}
+\index{resize@{resize}!queue\_ops\_s@{queue\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{resize}{resize}}
+{\footnotesize\ttfamily u16($\ast$ queue\+\_\+ops\+\_\+s\+::resize) (\mbox{\hyperlink{structadt__queue__s}{Queue}} $\ast$queue, u16 new\+\_\+size)}
+
+
+
+Resizes the capacity of the vector. Some elements can be lost. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em queue} & to do it and size \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Code\+Error 
+\end{DoxyReturn}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/adt\+\_\+queue.\+h\end{DoxyCompactItemize}

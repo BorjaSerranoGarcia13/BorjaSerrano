@@ -1,0 +1,60 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(505,5): warning MSB8004: El directorio Output no termina con una barra diagonal final. Esta instancia de compilación agregará la barra diagonal porque es necesaria para que se pueda evaluar correctamente el directorio Output.
+  borja_buffer.cc
+  borja_camera.cc
+E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\include\EDK3\dev\borja_camera.cc(46,12): warning C4018: '<': no coinciden signed/unsigned
+E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\include\EDK3\dev\borja_camera.cc(61,20): warning C4018: '<': no coinciden signed/unsigned
+  borja_gpumanager.cc
+  borja_program.cc
+  borja_shader.cc
+  borja_texture.cc
+  custom_material.cc
+E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\include\EDK3\dev\custom_material.cc(128,8): warning C4101: 'campos': variable local sin referencia
+  material_transparent.cc
+  imgui.cc
+E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\src\imgui.cc(171,6): warning C4101: 'size': variable local sin referencia
+E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\src\imgui.cc(438,6): warning C4101: 'size': variable local sin referencia
+E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\src\imgui.cc(532,133): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\src\imgui.cc(532,123): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\src\imgui.cc(536,134): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\src\imgui.cc(536,124): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\src\imgui.cc(540,133): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\src\imgui.cc(540,123): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\src\imgui.cc(652,19): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\src\imgui.cc(715,30): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\src\imgui.cc(731,30): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\src\imgui.cc(749,30): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\src\imgui.cc(761,30): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\src\imgui.cc(875,20): warning C4018: '<': no coinciden signed/unsigned
+E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\src\imgui.cc(903,12): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  Generando código...
+ESAT_d.lib(draw.obj) : warning LNK4099: no se encontró PDB 'ESAT_d.pdb' con 'ESAT_d.lib(draw.obj)' o en 'E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\bin\ESAT_d.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_d.lib(input.obj) : warning LNK4099: no se encontró PDB 'ESAT_d.pdb' con 'ESAT_d.lib(input.obj)' o en 'E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\bin\ESAT_d.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_d.lib(math.obj) : warning LNK4099: no se encontró PDB 'ESAT_d.pdb' con 'ESAT_d.lib(math.obj)' o en 'E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\bin\ESAT_d.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_d.lib(time.obj) : warning LNK4099: no se encontró PDB 'ESAT_d.pdb' con 'ESAT_d.lib(time.obj)' o en 'E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\bin\ESAT_d.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_d.lib(window.obj) : warning LNK4099: no se encontró PDB 'ESAT_d.pdb' con 'ESAT_d.lib(window.obj)' o en 'E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\bin\ESAT_d.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_d.lib(edk_camera.obj) : warning LNK4099: no se encontró PDB 'ESAT_d.pdb' con 'ESAT_d.lib(edk_camera.obj)' o en 'E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\bin\ESAT_d.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_d.lib(edk_drawable.obj) : warning LNK4099: no se encontró PDB '' con 'ESAT_d.lib(edk_drawable.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_d.lib(edk_geometry.obj) : warning LNK4099: no se encontró PDB 'ESAT_d.pdb' con 'ESAT_d.lib(edk_geometry.obj)' o en 'E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\bin\ESAT_d.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_d.lib(edk_gpumanager.obj) : warning LNK4099: no se encontró PDB 'ESAT_d.pdb' con 'ESAT_d.lib(edk_gpumanager.obj)' o en 'E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\bin\ESAT_d.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_d.lib(edk_gpuresources.obj) : warning LNK4099: no se encontró PDB 'ESAT_d.pdb' con 'ESAT_d.lib(edk_gpuresources.obj)' o en 'E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\bin\ESAT_d.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_d.lib(edk_material.obj) : warning LNK4099: no se encontró PDB 'ESAT_d.pdb' con 'ESAT_d.lib(edk_material.obj)' o en 'E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\bin\ESAT_d.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_d.lib(edk_node.obj) : warning LNK4099: no se encontró PDB 'ESAT_d.pdb' con 'ESAT_d.lib(edk_node.obj)' o en 'E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\bin\ESAT_d.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_d.lib(edk_rendertarget.obj) : warning LNK4099: no se encontró PDB 'ESAT_d.pdb' con 'ESAT_d.lib(edk_rendertarget.obj)' o en 'E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\bin\ESAT_d.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_d.lib(nanovg.obj) : warning LNK4099: no se encontró PDB 'ESAT_d.pdb' con 'ESAT_d.lib(nanovg.obj)' o en 'E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\bin\ESAT_d.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_d.lib(glew.obj) : warning LNK4099: no se encontró PDB '' con 'ESAT_d.lib(glew.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_d.lib(context.obj) : warning LNK4099: no se encontró PDB 'ESAT_d.pdb' con 'ESAT_d.lib(context.obj)' o en 'E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\bin\ESAT_d.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_d.lib(init.obj) : warning LNK4099: no se encontró PDB 'ESAT_d.pdb' con 'ESAT_d.lib(init.obj)' o en 'E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\bin\ESAT_d.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_d.lib(input.obj) : warning LNK4099: no se encontró PDB 'ESAT_d.pdb' con 'ESAT_d.lib(input.obj)' o en 'E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\bin\ESAT_d.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_d.lib(monitor.obj) : warning LNK4099: no se encontró PDB 'ESAT_d.pdb' con 'ESAT_d.lib(monitor.obj)' o en 'E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\bin\ESAT_d.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_d.lib(window.obj) : warning LNK4099: no se encontró PDB 'ESAT_d.pdb' con 'ESAT_d.lib(window.obj)' o en 'E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\bin\ESAT_d.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_d.lib(win32_init.obj) : warning LNK4099: no se encontró PDB 'ESAT_d.pdb' con 'ESAT_d.lib(win32_init.obj)' o en 'E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\bin\ESAT_d.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_d.lib(win32_monitor.obj) : warning LNK4099: no se encontró PDB 'ESAT_d.pdb' con 'ESAT_d.lib(win32_monitor.obj)' o en 'E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\bin\ESAT_d.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_d.lib(win32_time.obj) : warning LNK4099: no se encontró PDB 'ESAT_d.pdb' con 'ESAT_d.lib(win32_time.obj)' o en 'E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\bin\ESAT_d.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_d.lib(win32_tls.obj) : warning LNK4099: no se encontró PDB '' con 'ESAT_d.lib(win32_tls.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_d.lib(win32_window.obj) : warning LNK4099: no se encontró PDB 'ESAT_d.pdb' con 'ESAT_d.lib(win32_window.obj)' o en 'E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\bin\ESAT_d.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_d.lib(wgl_context.obj) : warning LNK4099: no se encontró PDB 'ESAT_d.pdb' con 'ESAT_d.lib(wgl_context.obj)' o en 'E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\bin\ESAT_d.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_d.lib(winmm_joystick.obj) : warning LNK4099: no se encontró PDB 'ESAT_d.pdb' con 'ESAT_d.lib(winmm_joystick.obj)' o en 'E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\bin\ESAT_d.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_extra_d.lib(imgui.obj) : warning LNK4099: no se encontró PDB 'ESAT_extra_d.pdb' con 'ESAT_extra_d.lib(imgui.obj)' o en 'E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\bin\ESAT_extra_d.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_extra_d.lib(imgui.obj) : warning LNK4099: no se encontró PDB 'ESAT_extra_d.pdb' con 'ESAT_extra_d.lib(imgui.obj)' o en 'E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\bin\ESAT_extra_d.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ESAT_extra_d.lib(imgui_draw.obj) : warning LNK4099: no se encontró PDB 'ESAT_extra_d.pdb' con 'ESAT_extra_d.lib(imgui_draw.obj)' o en 'E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\bin\ESAT_extra_d.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+  EDK_workspace.vcxproj -> E:\OneDrive\Escritorio\PRG - Borja Serarano\2. Procedural Scene\EDK_city\bin\EDK_workspace.exe

@@ -1,0 +1,188 @@
+\hypertarget{class_bs_entity}{}\doxysection{Bs\+Entity Class Reference}
+\label{class_bs_entity}\index{BsEntity@{BsEntity}}
+
+
+{\ttfamily \#include $<$bs\+\_\+entity.\+h$>$}
+
+Inheritance diagram for Bs\+Entity\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_bs_entity}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_bs_entity_ad88a7c33e0df48dace4837d61b0b910a}{Bs\+Entity}} ()
+\begin{DoxyCompactList}\small\item\em METHODS. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_bs_entity_abb01d4fc5cd5e6ebe80d1c8d23e62a4f}{Bs\+Entity}} (const \mbox{\hyperlink{class_bs_entity}{Bs\+Entity}} \&o)
+\item 
+\mbox{\hyperlink{class_bs_entity_aac795598fd8836dcab09635ee0dcf1d6}{$\sim$\+Bs\+Entity}} ()
+\item 
+uint32\+\_\+t \mbox{\hyperlink{class_bs_entity_ac3058c392d5925159165d5ba0d82636a}{id}} ()
+\item 
+virtual void \mbox{\hyperlink{class_bs_entity_a76eeca52d7ebe7c0b0d892f123c4c6e7}{init}} ()
+\item 
+virtual void \mbox{\hyperlink{class_bs_entity_a4617a0f8425d9729a5b529b4f7f0cd72}{set\+\_\+position}} (sf\+::\+Vector2f pos)=0
+\item 
+virtual void \mbox{\hyperlink{class_bs_entity_ac06b768b4682563c71bfab652869b560}{set\+\_\+rotation}} (float rot)=0
+\item 
+virtual void \mbox{\hyperlink{class_bs_entity_a285a5623fbfd0693a1c655d6bd984954}{set\+\_\+scale}} (sf\+::\+Vector2f \mbox{\hyperlink{class_bs_entity_a89bba8ef1fe33a81ecf7d753a6390dc1}{scale}})=0
+\item 
+virtual sf\+::\+Vector2f \mbox{\hyperlink{class_bs_entity_ab9a3c31a6b8e6f112434f2d9a9f71cc6}{position}} ()=0
+\item 
+virtual float \mbox{\hyperlink{class_bs_entity_a23dd46e8d01d0896d61140c1c49e56d3}{rotation}} ()=0
+\item 
+virtual sf\+::\+Vector2f \mbox{\hyperlink{class_bs_entity_a89bba8ef1fe33a81ecf7d753a6390dc1}{scale}} ()=0
+\item 
+virtual void \mbox{\hyperlink{class_bs_entity_ad45c2c4ec0a769f1cd698548b58f7808}{draw}} (sf\+::\+Render\+Window \&window)=0
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_bs_entity_ab34b4f51bdea3a7d3c04eeb6d0a172df}{tag\+\_\+}}
+\begin{DoxyCompactList}\small\item\em ATTRIBUTES -\/1 not tagged. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{class_bs_entity_a5bd49ba3ff6508ed25959420b89739b5}{enabled\+\_\+}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+/$\ast$ Class Entity /$\ast$ Virtual class for all the childs, heredate to other objects 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_bs_entity_ad88a7c33e0df48dace4837d61b0b910a}\label{class_bs_entity_ad88a7c33e0df48dace4837d61b0b910a}} 
+\index{BsEntity@{BsEntity}!BsEntity@{BsEntity}}
+\index{BsEntity@{BsEntity}!BsEntity@{BsEntity}}
+\doxysubsubsection{\texorpdfstring{BsEntity()}{BsEntity()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Bs\+Entity\+::\+Bs\+Entity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+METHODS. 
+
+Constructor used to initilizate the class ~\newline
+ \mbox{\Hypertarget{class_bs_entity_abb01d4fc5cd5e6ebe80d1c8d23e62a4f}\label{class_bs_entity_abb01d4fc5cd5e6ebe80d1c8d23e62a4f}} 
+\index{BsEntity@{BsEntity}!BsEntity@{BsEntity}}
+\index{BsEntity@{BsEntity}!BsEntity@{BsEntity}}
+\doxysubsubsection{\texorpdfstring{BsEntity()}{BsEntity()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Bs\+Entity\+::\+Bs\+Entity (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_bs_entity}{Bs\+Entity}} \&}]{o }\end{DoxyParamCaption})}
+
+Constructer copy \mbox{\Hypertarget{class_bs_entity_aac795598fd8836dcab09635ee0dcf1d6}\label{class_bs_entity_aac795598fd8836dcab09635ee0dcf1d6}} 
+\index{BsEntity@{BsEntity}!````~BsEntity@{$\sim$BsEntity}}
+\index{````~BsEntity@{$\sim$BsEntity}!BsEntity@{BsEntity}}
+\doxysubsubsection{\texorpdfstring{$\sim$BsEntity()}{~BsEntity()}}
+{\footnotesize\ttfamily Bs\+Entity\+::$\sim$\+Bs\+Entity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Destructor used to initilizate the class 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_bs_entity_ad45c2c4ec0a769f1cd698548b58f7808}\label{class_bs_entity_ad45c2c4ec0a769f1cd698548b58f7808}} 
+\index{BsEntity@{BsEntity}!draw@{draw}}
+\index{draw@{draw}!BsEntity@{BsEntity}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily virtual void Bs\+Entity\+::draw (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{window }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+virtaul void to draw entity 
+
+Implemented in \mbox{\hyperlink{class_bs_texture_a2294f2a6dabdcbd42d0a0f7633ef4464}{Bs\+Texture}}, \mbox{\hyperlink{class_bs_path_a213e54e40fbcc52e26e2ad06ec8cf365}{Bs\+Path}}, and \mbox{\hyperlink{class_bs_label_a35019000054fe7d55acf14cf2390838b}{Bs\+Label}}.
+
+\mbox{\Hypertarget{class_bs_entity_ac3058c392d5925159165d5ba0d82636a}\label{class_bs_entity_ac3058c392d5925159165d5ba0d82636a}} 
+\index{BsEntity@{BsEntity}!id@{id}}
+\index{id@{id}!BsEntity@{BsEntity}}
+\doxysubsubsection{\texorpdfstring{id()}{id()}}
+{\footnotesize\ttfamily uint32\+\_\+t Bs\+Entity\+::id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+get the id from the object \mbox{\Hypertarget{class_bs_entity_a76eeca52d7ebe7c0b0d892f123c4c6e7}\label{class_bs_entity_a76eeca52d7ebe7c0b0d892f123c4c6e7}} 
+\index{BsEntity@{BsEntity}!init@{init}}
+\index{init@{init}!BsEntity@{BsEntity}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily virtual void Bs\+Entity\+::init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+virtual init to heredate the variables 
+
+Reimplemented in \mbox{\hyperlink{class_bs_texture_ad1c89ec7257d853d5dd4a964aa96cd7d}{Bs\+Texture}}, \mbox{\hyperlink{class_bs_path_a8d48855afc21824251f733ba74b169ad}{Bs\+Path}}, \mbox{\hyperlink{class_bs_label_a71d0758adc5c196c045379b2340675d9}{Bs\+Label}}, and \mbox{\hyperlink{class_bs_rect_a1cc11fd43787318f8fac8cef70d26337}{Bs\+Rect}}.
+
+\mbox{\Hypertarget{class_bs_entity_ab9a3c31a6b8e6f112434f2d9a9f71cc6}\label{class_bs_entity_ab9a3c31a6b8e6f112434f2d9a9f71cc6}} 
+\index{BsEntity@{BsEntity}!position@{position}}
+\index{position@{position}!BsEntity@{BsEntity}}
+\doxysubsubsection{\texorpdfstring{position()}{position()}}
+{\footnotesize\ttfamily virtual sf\+::\+Vector2f Bs\+Entity\+::position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+virtual var save the position 
+
+Implemented in \mbox{\hyperlink{class_bs_texture_a905dc12a0a15021d77c0c6ba6bb7ab0f}{Bs\+Texture}}, \mbox{\hyperlink{class_bs_path_aa1a65e99eb88abe5717e7abe35cf6cb3}{Bs\+Path}}, and \mbox{\hyperlink{class_bs_label_a44a258210289b76a5a86ed94e9577e41}{Bs\+Label}}.
+
+\mbox{\Hypertarget{class_bs_entity_a23dd46e8d01d0896d61140c1c49e56d3}\label{class_bs_entity_a23dd46e8d01d0896d61140c1c49e56d3}} 
+\index{BsEntity@{BsEntity}!rotation@{rotation}}
+\index{rotation@{rotation}!BsEntity@{BsEntity}}
+\doxysubsubsection{\texorpdfstring{rotation()}{rotation()}}
+{\footnotesize\ttfamily virtual float Bs\+Entity\+::rotation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+virtual var save the rotation 
+
+Implemented in \mbox{\hyperlink{class_bs_texture_a1e8c9d726f878c8ebf9f47a769cd90b8}{Bs\+Texture}}, \mbox{\hyperlink{class_bs_path_a90de74f0ef69240d94b24e463a6b88d1}{Bs\+Path}}, and \mbox{\hyperlink{class_bs_label_a0d581988d5e9d5b62c581edda3a96ffb}{Bs\+Label}}.
+
+\mbox{\Hypertarget{class_bs_entity_a89bba8ef1fe33a81ecf7d753a6390dc1}\label{class_bs_entity_a89bba8ef1fe33a81ecf7d753a6390dc1}} 
+\index{BsEntity@{BsEntity}!scale@{scale}}
+\index{scale@{scale}!BsEntity@{BsEntity}}
+\doxysubsubsection{\texorpdfstring{scale()}{scale()}}
+{\footnotesize\ttfamily virtual sf\+::\+Vector2f Bs\+Entity\+::scale (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+virtual var save the scale 
+
+Implemented in \mbox{\hyperlink{class_bs_texture_aacdb42a7c9d2cfcf49da482f91f0ea7b}{Bs\+Texture}}, \mbox{\hyperlink{class_bs_path_ab0cf2e0b2739d63816f4a59e46be45e2}{Bs\+Path}}, and \mbox{\hyperlink{class_bs_label_a9fda8a821110fd69e9db9fb93830eb4f}{Bs\+Label}}.
+
+\mbox{\Hypertarget{class_bs_entity_a4617a0f8425d9729a5b529b4f7f0cd72}\label{class_bs_entity_a4617a0f8425d9729a5b529b4f7f0cd72}} 
+\index{BsEntity@{BsEntity}!set\_position@{set\_position}}
+\index{set\_position@{set\_position}!BsEntity@{BsEntity}}
+\doxysubsubsection{\texorpdfstring{set\_position()}{set\_position()}}
+{\footnotesize\ttfamily virtual void Bs\+Entity\+::set\+\_\+position (\begin{DoxyParamCaption}\item[{sf\+::\+Vector2f}]{pos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+virtual void to set position 
+
+Implemented in \mbox{\hyperlink{class_bs_texture_ad2b43158710d28a0a6d0fd2c75eff9a1}{Bs\+Texture}}, \mbox{\hyperlink{class_bs_path_a059a0e1d1381d64d0c701e2afd6e41e1}{Bs\+Path}}, and \mbox{\hyperlink{class_bs_label_a9433758137a4da69b2bded30419ab9e0}{Bs\+Label}}.
+
+\mbox{\Hypertarget{class_bs_entity_ac06b768b4682563c71bfab652869b560}\label{class_bs_entity_ac06b768b4682563c71bfab652869b560}} 
+\index{BsEntity@{BsEntity}!set\_rotation@{set\_rotation}}
+\index{set\_rotation@{set\_rotation}!BsEntity@{BsEntity}}
+\doxysubsubsection{\texorpdfstring{set\_rotation()}{set\_rotation()}}
+{\footnotesize\ttfamily virtual void Bs\+Entity\+::set\+\_\+rotation (\begin{DoxyParamCaption}\item[{float}]{rot }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+virtual void to set rotation 
+
+Implemented in \mbox{\hyperlink{class_bs_texture_a7ff8cd37ebd6a676b55daeb350fde519}{Bs\+Texture}}, \mbox{\hyperlink{class_bs_path_aa3b365163ead6603f5dc8805a1dc13ec}{Bs\+Path}}, and \mbox{\hyperlink{class_bs_label_abbc10fb17fcabcff4f29f17a70684a22}{Bs\+Label}}.
+
+\mbox{\Hypertarget{class_bs_entity_a285a5623fbfd0693a1c655d6bd984954}\label{class_bs_entity_a285a5623fbfd0693a1c655d6bd984954}} 
+\index{BsEntity@{BsEntity}!set\_scale@{set\_scale}}
+\index{set\_scale@{set\_scale}!BsEntity@{BsEntity}}
+\doxysubsubsection{\texorpdfstring{set\_scale()}{set\_scale()}}
+{\footnotesize\ttfamily virtual void Bs\+Entity\+::set\+\_\+scale (\begin{DoxyParamCaption}\item[{sf\+::\+Vector2f}]{scale }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+virtual void to set scale 
+
+Implemented in \mbox{\hyperlink{class_bs_texture_a7e5aef11b2d50fbd99333a9d0cd71649}{Bs\+Texture}}, \mbox{\hyperlink{class_bs_path_aba955e0370fd8f3b6870fb150bfbd7a4}{Bs\+Path}}, and \mbox{\hyperlink{class_bs_label_a379ef1bcd6ab7f88d4e2fdff61ae8777}{Bs\+Label}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_bs_entity_a5bd49ba3ff6508ed25959420b89739b5}\label{class_bs_entity_a5bd49ba3ff6508ed25959420b89739b5}} 
+\index{BsEntity@{BsEntity}!enabled\_@{enabled\_}}
+\index{enabled\_@{enabled\_}!BsEntity@{BsEntity}}
+\doxysubsubsection{\texorpdfstring{enabled\_}{enabled\_}}
+{\footnotesize\ttfamily uint8\+\_\+t Bs\+Entity\+::enabled\+\_\+}
+
+determinate if its enabled to draw \mbox{\Hypertarget{class_bs_entity_ab34b4f51bdea3a7d3c04eeb6d0a172df}\label{class_bs_entity_ab34b4f51bdea3a7d3c04eeb6d0a172df}} 
+\index{BsEntity@{BsEntity}!tag\_@{tag\_}}
+\index{tag\_@{tag\_}!BsEntity@{BsEntity}}
+\doxysubsubsection{\texorpdfstring{tag\_}{tag\_}}
+{\footnotesize\ttfamily int Bs\+Entity\+::tag\+\_\+}
+
+
+
+ATTRIBUTES -\/1 not tagged. 
+
+var tag to know what type of object is 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/bs\+\_\+entity.\+h\end{DoxyCompactItemize}

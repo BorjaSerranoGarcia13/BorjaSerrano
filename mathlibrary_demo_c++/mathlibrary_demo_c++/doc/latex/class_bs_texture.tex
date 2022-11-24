@@ -1,0 +1,274 @@
+\hypertarget{class_bs_texture}{}\doxysection{Bs\+Texture Class Reference}
+\label{class_bs_texture}\index{BsTexture@{BsTexture}}
+
+
+{\ttfamily \#include $<$bs\+\_\+texture.\+h$>$}
+
+Inheritance diagram for Bs\+Texture\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_bs_texture}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_bs_texture_a95f1b4d1bc23f2be244720cb5298e51e}\label{class_bs_texture_a95f1b4d1bc23f2be244720cb5298e51e}} 
+\mbox{\hyperlink{class_bs_texture_a95f1b4d1bc23f2be244720cb5298e51e}{Bs\+Texture}} ()
+\begin{DoxyCompactList}\small\item\em constructor of class \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_bs_texture_a16646ae10b3e0eaceae6b4416a1170ac}{Bs\+Texture}} (const char $\ast$file\+\_\+name, sf\+::\+Vector2f pos, sf\+::\+Vector2f \mbox{\hyperlink{class_bs_texture_aacdb42a7c9d2cfcf49da482f91f0ea7b}{scale}})
+\begin{DoxyCompactList}\small\item\em constructor with init \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bs_texture_a0a5bbf346bbb64cbefb02790f25147f0}\label{class_bs_texture_a0a5bbf346bbb64cbefb02790f25147f0}} 
+\mbox{\hyperlink{class_bs_texture_a0a5bbf346bbb64cbefb02790f25147f0}{Bs\+Texture}} (const \mbox{\hyperlink{class_bs_texture}{Bs\+Texture}} \&o)
+\begin{DoxyCompactList}\small\item\em Constructer copy. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bs_texture_a0ecc552bda1890e59b54c4e57a990d79}\label{class_bs_texture_a0ecc552bda1890e59b54c4e57a990d79}} 
+virtual \mbox{\hyperlink{class_bs_texture_a0ecc552bda1890e59b54c4e57a990d79}{$\sim$\+Bs\+Texture}} ()
+\begin{DoxyCompactList}\small\item\em vistual destroyer \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bs_texture_ad1c89ec7257d853d5dd4a964aa96cd7d}\label{class_bs_texture_ad1c89ec7257d853d5dd4a964aa96cd7d}} 
+void \mbox{\hyperlink{class_bs_texture_ad1c89ec7257d853d5dd4a964aa96cd7d}{init}} () override
+\begin{DoxyCompactList}\small\item\em init for the object \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bs_texture_a7dd4c789ce18cf9d5e3af2d5c2fae226}{init}} (const char $\ast$file\+\_\+name)
+\begin{DoxyCompactList}\small\item\em init for the file\+\_\+name \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bs_texture_ad64fc661ee4e83c1d23ca34fbaf1d8e5}{init}} (const char $\ast$file\+\_\+name, sf\+::\+Vector2f pos, sf\+::\+Vector2f \mbox{\hyperlink{class_bs_texture_aacdb42a7c9d2cfcf49da482f91f0ea7b}{scale}})
+\begin{DoxyCompactList}\small\item\em constructor with manual init \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bs_texture_acc4f0960f67888006f05c9b0060db8e3}\label{class_bs_texture_acc4f0960f67888006f05c9b0060db8e3}} 
+void \mbox{\hyperlink{class_bs_texture_acc4f0960f67888006f05c9b0060db8e3}{set\+\_\+texture\+\_\+rect}} (sf\+::\+Int\+Rect rect)
+\begin{DoxyCompactList}\small\item\em set the area \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bs_texture_ad2b43158710d28a0a6d0fd2c75eff9a1}{set\+\_\+position}} (sf\+::\+Vector2f pos) override
+\begin{DoxyCompactList}\small\item\em set the pos \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bs_texture_a7ff8cd37ebd6a676b55daeb350fde519}{set\+\_\+rotation}} (float rot) override
+\begin{DoxyCompactList}\small\item\em set the rot \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bs_texture_a7e5aef11b2d50fbd99333a9d0cd71649}{set\+\_\+scale}} (sf\+::\+Vector2f \mbox{\hyperlink{class_bs_texture_aacdb42a7c9d2cfcf49da482f91f0ea7b}{scale}}) override
+\begin{DoxyCompactList}\small\item\em set the scale \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bs_texture_a7cd2cccd5d159864cfa59a896bfe06b5}\label{class_bs_texture_a7cd2cccd5d159864cfa59a896bfe06b5}} 
+void {\bfseries set\+\_\+color} (sf\+::\+Color color)
+\item 
+sf\+::\+Vector2f \mbox{\hyperlink{class_bs_texture_a905dc12a0a15021d77c0c6ba6bb7ab0f}{position}} () override
+\begin{DoxyCompactList}\small\item\em get the position \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_bs_texture_a1e8c9d726f878c8ebf9f47a769cd90b8}{rotation}} () override
+\begin{DoxyCompactList}\small\item\em get the float \mbox{\hyperlink{class_bs_texture_a1e8c9d726f878c8ebf9f47a769cd90b8}{rotation()}} override; \end{DoxyCompactList}\item 
+sf\+::\+Vector2f \mbox{\hyperlink{class_bs_texture_aacdb42a7c9d2cfcf49da482f91f0ea7b}{scale}} () override
+\begin{DoxyCompactList}\small\item\em get the scale \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bs_texture_a2294f2a6dabdcbd42d0a0f7633ef4464}{draw}} (sf\+::\+Render\+Window \&window) override
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_bs_texture_a6e3c2e6d0daae612f38cfa8e00199adc}\label{class_bs_texture_a6e3c2e6d0daae612f38cfa8e00199adc}} 
+sf\+::\+Texture {\bfseries text\+\_\+}
+\item 
+sf\+::\+Vector2f \mbox{\hyperlink{class_bs_texture_aa2f3453bf72520964afb393778d22ece}{pos\+\_\+}}
+\item 
+float \mbox{\hyperlink{class_bs_texture_a5db0b7bd4b3473665b83949be64cb3bd}{rotation\+\_\+}}
+\item 
+sf\+::\+Vector2f \mbox{\hyperlink{class_bs_texture_a4e6b92242e60cbb71d749b609d5b0f85}{scale\+\_\+}}
+\item 
+\mbox{\Hypertarget{class_bs_texture_a74339fadd0abb81fe83a644194bf17ea}\label{class_bs_texture_a74339fadd0abb81fe83a644194bf17ea}} 
+sf\+::\+Sprite {\bfseries sprite\+\_\+}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+/$\ast$ Class texture, heredates from entity /$\ast$ manage evrything from texture 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_bs_texture_a16646ae10b3e0eaceae6b4416a1170ac}\label{class_bs_texture_a16646ae10b3e0eaceae6b4416a1170ac}} 
+\index{BsTexture@{BsTexture}!BsTexture@{BsTexture}}
+\index{BsTexture@{BsTexture}!BsTexture@{BsTexture}}
+\doxysubsubsection{\texorpdfstring{BsTexture()}{BsTexture()}}
+{\footnotesize\ttfamily Bs\+Texture\+::\+Bs\+Texture (\begin{DoxyParamCaption}\item[{const char $\ast$}]{file\+\_\+name,  }\item[{sf\+::\+Vector2f}]{pos,  }\item[{sf\+::\+Vector2f}]{scale }\end{DoxyParamCaption})}
+
+
+
+constructor with init 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$file\+\_\+name} & pointer to file name \\
+\hline
+{\em pos} & the position to set \\
+\hline
+{\em scale} & the scale to set \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_bs_texture_a2294f2a6dabdcbd42d0a0f7633ef4464}\label{class_bs_texture_a2294f2a6dabdcbd42d0a0f7633ef4464}} 
+\index{BsTexture@{BsTexture}!draw@{draw}}
+\index{draw@{draw}!BsTexture@{BsTexture}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void Bs\+Texture\+::draw (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{window }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+virtaul void to draw entity 
+
+Implements \mbox{\hyperlink{class_bs_entity_ad45c2c4ec0a769f1cd698548b58f7808}{Bs\+Entity}}.
+
+\mbox{\Hypertarget{class_bs_texture_a7dd4c789ce18cf9d5e3af2d5c2fae226}\label{class_bs_texture_a7dd4c789ce18cf9d5e3af2d5c2fae226}} 
+\index{BsTexture@{BsTexture}!init@{init}}
+\index{init@{init}!BsTexture@{BsTexture}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Bs\+Texture\+::init (\begin{DoxyParamCaption}\item[{const char $\ast$}]{file\+\_\+name }\end{DoxyParamCaption})}
+
+
+
+init for the file\+\_\+name 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$file\+\_\+name} & pointer to file name \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_bs_texture_ad64fc661ee4e83c1d23ca34fbaf1d8e5}\label{class_bs_texture_ad64fc661ee4e83c1d23ca34fbaf1d8e5}} 
+\index{BsTexture@{BsTexture}!init@{init}}
+\index{init@{init}!BsTexture@{BsTexture}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Bs\+Texture\+::init (\begin{DoxyParamCaption}\item[{const char $\ast$}]{file\+\_\+name,  }\item[{sf\+::\+Vector2f}]{pos,  }\item[{sf\+::\+Vector2f}]{scale }\end{DoxyParamCaption})}
+
+
+
+constructor with manual init 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$file\+\_\+name} & pointer to file name \\
+\hline
+{\em pos} & the position to set \\
+\hline
+{\em scale} & the scale to set \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_bs_texture_a905dc12a0a15021d77c0c6ba6bb7ab0f}\label{class_bs_texture_a905dc12a0a15021d77c0c6ba6bb7ab0f}} 
+\index{BsTexture@{BsTexture}!position@{position}}
+\index{position@{position}!BsTexture@{BsTexture}}
+\doxysubsubsection{\texorpdfstring{position()}{position()}}
+{\footnotesize\ttfamily sf\+::\+Vector2f Bs\+Texture\+::position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+get the position 
+
+\begin{DoxyReturn}{Returns}
+the position 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_bs_entity_ab9a3c31a6b8e6f112434f2d9a9f71cc6}{Bs\+Entity}}.
+
+\mbox{\Hypertarget{class_bs_texture_a1e8c9d726f878c8ebf9f47a769cd90b8}\label{class_bs_texture_a1e8c9d726f878c8ebf9f47a769cd90b8}} 
+\index{BsTexture@{BsTexture}!rotation@{rotation}}
+\index{rotation@{rotation}!BsTexture@{BsTexture}}
+\doxysubsubsection{\texorpdfstring{rotation()}{rotation()}}
+{\footnotesize\ttfamily float Bs\+Texture\+::rotation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+get the float \mbox{\hyperlink{class_bs_texture_a1e8c9d726f878c8ebf9f47a769cd90b8}{rotation()}} override; 
+
+\begin{DoxyReturn}{Returns}
+the float \mbox{\hyperlink{class_bs_texture_a1e8c9d726f878c8ebf9f47a769cd90b8}{rotation()}} override; 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_bs_entity_a23dd46e8d01d0896d61140c1c49e56d3}{Bs\+Entity}}.
+
+\mbox{\Hypertarget{class_bs_texture_aacdb42a7c9d2cfcf49da482f91f0ea7b}\label{class_bs_texture_aacdb42a7c9d2cfcf49da482f91f0ea7b}} 
+\index{BsTexture@{BsTexture}!scale@{scale}}
+\index{scale@{scale}!BsTexture@{BsTexture}}
+\doxysubsubsection{\texorpdfstring{scale()}{scale()}}
+{\footnotesize\ttfamily sf\+::\+Vector2f Bs\+Texture\+::scale (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+get the scale 
+
+\begin{DoxyReturn}{Returns}
+the scale 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_bs_entity_a89bba8ef1fe33a81ecf7d753a6390dc1}{Bs\+Entity}}.
+
+\mbox{\Hypertarget{class_bs_texture_ad2b43158710d28a0a6d0fd2c75eff9a1}\label{class_bs_texture_ad2b43158710d28a0a6d0fd2c75eff9a1}} 
+\index{BsTexture@{BsTexture}!set\_position@{set\_position}}
+\index{set\_position@{set\_position}!BsTexture@{BsTexture}}
+\doxysubsubsection{\texorpdfstring{set\_position()}{set\_position()}}
+{\footnotesize\ttfamily void Bs\+Texture\+::set\+\_\+position (\begin{DoxyParamCaption}\item[{sf\+::\+Vector2f}]{pos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+set the pos 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos} & value to set \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_bs_entity_a4617a0f8425d9729a5b529b4f7f0cd72}{Bs\+Entity}}.
+
+\mbox{\Hypertarget{class_bs_texture_a7ff8cd37ebd6a676b55daeb350fde519}\label{class_bs_texture_a7ff8cd37ebd6a676b55daeb350fde519}} 
+\index{BsTexture@{BsTexture}!set\_rotation@{set\_rotation}}
+\index{set\_rotation@{set\_rotation}!BsTexture@{BsTexture}}
+\doxysubsubsection{\texorpdfstring{set\_rotation()}{set\_rotation()}}
+{\footnotesize\ttfamily void Bs\+Texture\+::set\+\_\+rotation (\begin{DoxyParamCaption}\item[{float}]{rot }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+set the rot 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rot} & value to set \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_bs_entity_ac06b768b4682563c71bfab652869b560}{Bs\+Entity}}.
+
+\mbox{\Hypertarget{class_bs_texture_a7e5aef11b2d50fbd99333a9d0cd71649}\label{class_bs_texture_a7e5aef11b2d50fbd99333a9d0cd71649}} 
+\index{BsTexture@{BsTexture}!set\_scale@{set\_scale}}
+\index{set\_scale@{set\_scale}!BsTexture@{BsTexture}}
+\doxysubsubsection{\texorpdfstring{set\_scale()}{set\_scale()}}
+{\footnotesize\ttfamily void Bs\+Texture\+::set\+\_\+scale (\begin{DoxyParamCaption}\item[{sf\+::\+Vector2f}]{scale }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+set the scale 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scale} & value to set \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_bs_entity_a285a5623fbfd0693a1c655d6bd984954}{Bs\+Entity}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_bs_texture_aa2f3453bf72520964afb393778d22ece}\label{class_bs_texture_aa2f3453bf72520964afb393778d22ece}} 
+\index{BsTexture@{BsTexture}!pos\_@{pos\_}}
+\index{pos\_@{pos\_}!BsTexture@{BsTexture}}
+\doxysubsubsection{\texorpdfstring{pos\_}{pos\_}}
+{\footnotesize\ttfamily sf\+::\+Vector2f Bs\+Texture\+::pos\+\_\+}
+
+save the position \mbox{\Hypertarget{class_bs_texture_a5db0b7bd4b3473665b83949be64cb3bd}\label{class_bs_texture_a5db0b7bd4b3473665b83949be64cb3bd}} 
+\index{BsTexture@{BsTexture}!rotation\_@{rotation\_}}
+\index{rotation\_@{rotation\_}!BsTexture@{BsTexture}}
+\doxysubsubsection{\texorpdfstring{rotation\_}{rotation\_}}
+{\footnotesize\ttfamily float Bs\+Texture\+::rotation\+\_\+}
+
+save the rotation \mbox{\Hypertarget{class_bs_texture_a4e6b92242e60cbb71d749b609d5b0f85}\label{class_bs_texture_a4e6b92242e60cbb71d749b609d5b0f85}} 
+\index{BsTexture@{BsTexture}!scale\_@{scale\_}}
+\index{scale\_@{scale\_}!BsTexture@{BsTexture}}
+\doxysubsubsection{\texorpdfstring{scale\_}{scale\_}}
+{\footnotesize\ttfamily sf\+::\+Vector2f Bs\+Texture\+::scale\+\_\+}
+
+save the scale 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/bs\+\_\+texture.\+h\end{DoxyCompactItemize}

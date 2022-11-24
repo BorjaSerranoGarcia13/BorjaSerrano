@@ -1,0 +1,136 @@
+\hypertarget{class_bs_window}{}\doxysection{Bs\+Window Class Reference}
+\label{class_bs_window}\index{BsWindow@{BsWindow}}
+
+
+{\ttfamily \#include $<$bs\+\_\+window.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_bs_window_a6ef6adbc4b94de0e060b66dd2a1bd02f}{init}} (const unsigned int \mbox{\hyperlink{class_bs_window_a090002dcd0bc846624d55edd0046e7c2}{width}}, const unsigned int \mbox{\hyperlink{class_bs_window_ae8a4f5ac7485f2605de80ae827550cf8}{height}}, const std\+::string \&title)
+\begin{DoxyCompactList}\small\item\em Init the window. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bs_window_af74567dee0655b759c67f821cb0032b7}\label{class_bs_window_af74567dee0655b759c67f821cb0032b7}} 
+void \mbox{\hyperlink{class_bs_window_af74567dee0655b759c67f821cb0032b7}{frame}} ()
+\begin{DoxyCompactList}\small\item\em Constructor used to initilizate the class. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bs_window_aab94d539f8958eb2aabd0ae4a1629d0f}\label{class_bs_window_aab94d539f8958eb2aabd0ae4a1629d0f}} 
+void \mbox{\hyperlink{class_bs_window_aab94d539f8958eb2aabd0ae4a1629d0f}{destroy}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the window. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_bs_window_ae17a9c51ffa7577f1bd2edaf9ac2e057}{is\+Opened}} ()
+\begin{DoxyCompactList}\small\item\em check if window is is\+Opened @preturn true if is opened @preturn false if is not opened \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bs_window_a78eb5545e7ccd63486d8644f766c2a9f}\label{class_bs_window_a78eb5545e7ccd63486d8644f766c2a9f}} 
+void \mbox{\hyperlink{class_bs_window_a78eb5545e7ccd63486d8644f766c2a9f}{clear}} ()
+\begin{DoxyCompactList}\small\item\em clear the window \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bs_window_a5021dd81b269da539f0e62c6cccd88cb}{set\+Mouse\+Visibility}} (bool visible)
+\begin{DoxyCompactList}\small\item\em set the mouse visibility \end{DoxyCompactList}\item 
+const unsigned int \mbox{\hyperlink{class_bs_window_ae8a4f5ac7485f2605de80ae827550cf8}{height}} ()
+\begin{DoxyCompactList}\small\item\em get the height \end{DoxyCompactList}\item 
+const unsigned int \mbox{\hyperlink{class_bs_window_a090002dcd0bc846624d55edd0046e7c2}{width}} ()
+\begin{DoxyCompactList}\small\item\em get the width \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bs_window_a78a5006650da3db6d299b65dc8b8b80a}{set\+Framerate\+Limit}} (const unsigned int limit)
+\begin{DoxyCompactList}\small\item\em set the limit framerate \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_bs_window_a04eab60958eb89ef06f942eb8d20f227}\label{class_bs_window_a04eab60958eb89ef06f942eb8d20f227}} 
+sf\+::\+Render\+Window {\bfseries window\+\_\+}
+\item 
+\mbox{\Hypertarget{class_bs_window_a06c1460483f8485fc104350b56fd8450}\label{class_bs_window_a06c1460483f8485fc104350b56fd8450}} 
+sf\+::\+Clock {\bfseries delta\+\_\+clock\+\_\+}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+/$\ast$ Class window /$\ast$ manage evrything to draw and start the window 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_bs_window_ae8a4f5ac7485f2605de80ae827550cf8}\label{class_bs_window_ae8a4f5ac7485f2605de80ae827550cf8}} 
+\index{BsWindow@{BsWindow}!height@{height}}
+\index{height@{height}!BsWindow@{BsWindow}}
+\doxysubsubsection{\texorpdfstring{height()}{height()}}
+{\footnotesize\ttfamily const unsigned int Bs\+Window\+::height (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get the height 
+
+\begin{DoxyReturn}{Returns}
+height 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_bs_window_a6ef6adbc4b94de0e060b66dd2a1bd02f}\label{class_bs_window_a6ef6adbc4b94de0e060b66dd2a1bd02f}} 
+\index{BsWindow@{BsWindow}!init@{init}}
+\index{init@{init}!BsWindow@{BsWindow}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void Bs\+Window\+::init (\begin{DoxyParamCaption}\item[{const unsigned int}]{width,  }\item[{const unsigned int}]{height,  }\item[{const std\+::string \&}]{title }\end{DoxyParamCaption})}
+
+
+
+Init the window. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em width} & for the width od window \\
+\hline
+{\em height} & for the height od window \\
+\hline
+{\em title} & tfor the name of window \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_bs_window_ae17a9c51ffa7577f1bd2edaf9ac2e057}\label{class_bs_window_ae17a9c51ffa7577f1bd2edaf9ac2e057}} 
+\index{BsWindow@{BsWindow}!isOpened@{isOpened}}
+\index{isOpened@{isOpened}!BsWindow@{BsWindow}}
+\doxysubsubsection{\texorpdfstring{isOpened()}{isOpened()}}
+{\footnotesize\ttfamily bool Bs\+Window\+::is\+Opened (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+check if window is is\+Opened @preturn true if is opened @preturn false if is not opened 
+
+return if window is opened ~\newline
+ \mbox{\Hypertarget{class_bs_window_a78a5006650da3db6d299b65dc8b8b80a}\label{class_bs_window_a78a5006650da3db6d299b65dc8b8b80a}} 
+\index{BsWindow@{BsWindow}!setFramerateLimit@{setFramerateLimit}}
+\index{setFramerateLimit@{setFramerateLimit}!BsWindow@{BsWindow}}
+\doxysubsubsection{\texorpdfstring{setFramerateLimit()}{setFramerateLimit()}}
+{\footnotesize\ttfamily void Bs\+Window\+::set\+Framerate\+Limit (\begin{DoxyParamCaption}\item[{const unsigned int}]{limit }\end{DoxyParamCaption})}
+
+
+
+set the limit framerate 
+
+
+\begin{DoxyParams}{Parameters}
+{\em limit} & to set the limit framerate \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_bs_window_a5021dd81b269da539f0e62c6cccd88cb}\label{class_bs_window_a5021dd81b269da539f0e62c6cccd88cb}} 
+\index{BsWindow@{BsWindow}!setMouseVisibility@{setMouseVisibility}}
+\index{setMouseVisibility@{setMouseVisibility}!BsWindow@{BsWindow}}
+\doxysubsubsection{\texorpdfstring{setMouseVisibility()}{setMouseVisibility()}}
+{\footnotesize\ttfamily void Bs\+Window\+::set\+Mouse\+Visibility (\begin{DoxyParamCaption}\item[{bool}]{visible }\end{DoxyParamCaption})}
+
+
+
+set the mouse visibility 
+
+
+\begin{DoxyParams}{Parameters}
+{\em visible} & set the mouse visibility \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_bs_window_a090002dcd0bc846624d55edd0046e7c2}\label{class_bs_window_a090002dcd0bc846624d55edd0046e7c2}} 
+\index{BsWindow@{BsWindow}!width@{width}}
+\index{width@{width}!BsWindow@{BsWindow}}
+\doxysubsubsection{\texorpdfstring{width()}{width()}}
+{\footnotesize\ttfamily const unsigned int Bs\+Window\+::width (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get the width 
+
+\begin{DoxyReturn}{Returns}
+width 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/bs\+\_\+window.\+h\end{DoxyCompactItemize}

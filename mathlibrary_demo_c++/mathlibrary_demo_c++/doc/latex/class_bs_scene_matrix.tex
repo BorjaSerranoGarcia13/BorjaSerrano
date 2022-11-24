@@ -1,0 +1,63 @@
+\hypertarget{class_bs_scene_matrix}{}\doxysection{Bs\+Scene\+Matrix Class Reference}
+\label{class_bs_scene_matrix}\index{BsSceneMatrix@{BsSceneMatrix}}
+
+
+{\ttfamily \#include $<$bs\+\_\+scene\+\_\+matrix.\+h$>$}
+
+Inheritance diagram for Bs\+Scene\+Matrix\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_bs_scene_matrix}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_bs_scene_matrix_a69df53aa98f469440dc875e9d176b4ee}\label{class_bs_scene_matrix_a69df53aa98f469440dc875e9d176b4ee}} 
+\mbox{\hyperlink{class_bs_scene_matrix_a69df53aa98f469440dc875e9d176b4ee}{Bs\+Scene\+Matrix}} ()
+\begin{DoxyCompactList}\small\item\em constructor of class \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bs_scene_matrix_a0296b7fdae26f3882a36f983e59e9c9c}\label{class_bs_scene_matrix_a0296b7fdae26f3882a36f983e59e9c9c}} 
+{\bfseries Bs\+Scene\+Matrix} (const \mbox{\hyperlink{class_bs_scene_matrix}{Bs\+Scene\+Matrix}} \&copy)=delete
+\item 
+\mbox{\Hypertarget{class_bs_scene_matrix_a5d4ed63aac6def02860e79028f979438}\label{class_bs_scene_matrix_a5d4ed63aac6def02860e79028f979438}} 
+\mbox{\hyperlink{class_bs_scene_matrix}{Bs\+Scene\+Matrix}} \& {\bfseries operator=} (const \mbox{\hyperlink{class_bs_scene_matrix}{Bs\+Scene\+Matrix}} \&)=delete
+\item 
+\mbox{\Hypertarget{class_bs_scene_matrix_a94d82ac023619fcdda5edcd56181f066}\label{class_bs_scene_matrix_a94d82ac023619fcdda5edcd56181f066}} 
+virtual \mbox{\hyperlink{class_bs_scene_matrix_a94d82ac023619fcdda5edcd56181f066}{$\sim$\+Bs\+Scene\+Matrix}} ()
+\begin{DoxyCompactList}\small\item\em Destructor used to initilizate the class. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bs_scene_matrix_af32d29976ba150ca3e3b5881b87c3a3b}\label{class_bs_scene_matrix_af32d29976ba150ca3e3b5881b87c3a3b}} 
+void \mbox{\hyperlink{class_bs_scene_matrix_af32d29976ba150ca3e3b5881b87c3a3b}{init}} () override
+\begin{DoxyCompactList}\small\item\em init scene \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bs_scene_matrix_af7ea91d6052c9430db44dd2f21a273cc}\label{class_bs_scene_matrix_af7ea91d6052c9430db44dd2f21a273cc}} 
+void \mbox{\hyperlink{class_bs_scene_matrix_af7ea91d6052c9430db44dd2f21a273cc}{update}} () override
+\begin{DoxyCompactList}\small\item\em update scene \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bs_scene_matrix_afcc36c3ce6af8c82c897eda8da57a69b}\label{class_bs_scene_matrix_afcc36c3ce6af8c82c897eda8da57a69b}} 
+void \mbox{\hyperlink{class_bs_scene_matrix_afcc36c3ce6af8c82c897eda8da57a69b}{draw}} (sf\+::\+Render\+Window \&window) override
+\begin{DoxyCompactList}\small\item\em draw scene \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bs_scene_matrix_a2e156929a87a70b362c8e14f08b94455}\label{class_bs_scene_matrix_a2e156929a87a70b362c8e14f08b94455}} 
+void \mbox{\hyperlink{class_bs_scene_matrix_a2e156929a87a70b362c8e14f08b94455}{create\+Shape}} ()
+\begin{DoxyCompactList}\small\item\em create shape from mouse input \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_bs_scene_matrix_a2bf406bcb72b93a2845c5899ec820ffd}\label{class_bs_scene_matrix_a2bf406bcb72b93a2845c5899ec820ffd}} 
+\mbox{\hyperlink{class_bs_path}{Bs\+Path}} $\ast$ {\bfseries path\+\_\+} = nullptr
+\item 
+\mbox{\Hypertarget{class_bs_scene_matrix_a54d614da174e42696dd86de01fa415d1}\label{class_bs_scene_matrix_a54d614da174e42696dd86de01fa415d1}} 
+\mbox{\hyperlink{class_bs_game_manager}{Bs\+Game\+Manager}} \& {\bfseries GM\+\_\+} = Bs\+Game\+Manager\+::get\+Instance()
+\item 
+\mbox{\Hypertarget{class_bs_scene_matrix_a2350f63cb0f93a3b391ae73df889e610}\label{class_bs_scene_matrix_a2350f63cb0f93a3b391ae73df889e610}} 
+std\+::string {\bfseries font\+\_\+}
+\item 
+\mbox{\Hypertarget{class_bs_scene_matrix_a9287ef8f44873c62e7a477d4cfb129ae}\label{class_bs_scene_matrix_a9287ef8f44873c62e7a477d4cfb129ae}} 
+\mbox{\hyperlink{class_bs_rect}{Bs\+Rect}} $\ast$ {\bfseries rect\+\_\+} = nullptr
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+/$\ast$ Class scene /$\ast$ manage evrything from the scene, gameplay 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/bs\+\_\+scene\+\_\+matrix.\+h\end{DoxyCompactItemize}

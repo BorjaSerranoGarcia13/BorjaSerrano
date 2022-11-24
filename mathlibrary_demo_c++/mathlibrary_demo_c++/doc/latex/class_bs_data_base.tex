@@ -1,0 +1,213 @@
+\hypertarget{class_bs_data_base}{}\doxysection{Bs\+Data\+Base Class Reference}
+\label{class_bs_data_base}\index{BsDataBase@{BsDataBase}}
+
+
+{\ttfamily \#include $<$bs\+\_\+database.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_bs_data_base_ac5f694ee77291074040c2d7bfb494a2f}{Bs\+Data\+Base}} ()
+\begin{DoxyCompactList}\small\item\em METHODS. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bs_data_base_a0ceed0b20fd41afed0b2ca143c508071}\label{class_bs_data_base_a0ceed0b20fd41afed0b2ca143c508071}} 
+\mbox{\hyperlink{class_bs_data_base_a0ceed0b20fd41afed0b2ca143c508071}{$\sim$\+Bs\+Data\+Base}} ()
+\begin{DoxyCompactList}\small\item\em destructor of class \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_bs_data_base_ae85b32270c44cec34545a7efc2c4305c}{create}} ()
+\begin{DoxyCompactList}\small\item\em creates the database if doesnt exist \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bs_data_base_a2da129406e34c4ee9e4d880a1b111bb7}{retrieving\+Data}} (const char $\ast$sql)
+\begin{DoxyCompactList}\small\item\em access to the contetnt of databse \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_bs_data_base_aa0b470051e5134c47412755d77782cb2}{insert\+Data}} (char $\ast$sql)
+\begin{DoxyCompactList}\small\item\em insert the data \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bs_data_base_ac7ea9fedc1ca3f53c47384c40c0564d5}\label{class_bs_data_base_ac7ea9fedc1ca3f53c47384c40c0564d5}} 
+void {\bfseries extract\+All\+Data} ()
+\item 
+\mbox{\Hypertarget{class_bs_data_base_ac18ceefdd57fdf397cd41f5996d2e6fc}\label{class_bs_data_base_ac18ceefdd57fdf397cd41f5996d2e6fc}} 
+void {\bfseries clear\+\_\+string} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{class_bs_data_base_ae277e4dc75ea867a352e21e3c3b56060}{callback}} (void $\ast$data, int argc, char $\ast$$\ast$argv, char $\ast$$\ast$az\+Col\+Name)
+\begin{DoxyCompactList}\small\item\em query to acces the database \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+sqlite3 $\ast$ \mbox{\hyperlink{class_bs_data_base_a87e06029ec2eaedcfa7a4011a4875b2f}{db\+\_\+}}
+\item 
+int \mbox{\hyperlink{class_bs_data_base_ad34ef1b2a24809d5b6d0140e7715fb9f}{rc\+\_\+}}
+\item 
+char $\ast$ \mbox{\hyperlink{class_bs_data_base_ab150b401c8f61d218f3a7869553ae965}{err\+\_\+msg\+\_\+}}
+\item 
+char $\ast$ \mbox{\hyperlink{class_bs_data_base_a02c57ecf1d8076e4a3b5204b19413c8b}{sql\+\_\+}}
+\item 
+\mbox{\Hypertarget{class_bs_data_base_a9fa140bd0566e33bdb2c69139f610e81}\label{class_bs_data_base_a9fa140bd0566e33bdb2c69139f610e81}} 
+std\+::string {\bfseries username\+\_\+login\+\_\+} \mbox{[}k\+Total\+Login\mbox{]}
+\item 
+\mbox{\Hypertarget{class_bs_data_base_a5ae04ba01f4b069d252da629c1f46ed2}\label{class_bs_data_base_a5ae04ba01f4b069d252da629c1f46ed2}} 
+std\+::string {\bfseries password\+\_\+login\+\_\+} \mbox{[}k\+Total\+Login\mbox{]}
+\item 
+\mbox{\Hypertarget{class_bs_data_base_a34fb3180ffb16b02565e279017104ded}\label{class_bs_data_base_a34fb3180ffb16b02565e279017104ded}} 
+std\+::string {\bfseries test\+\_\+int} \mbox{[}k\+Total\+Int\mbox{]}
+\item 
+\mbox{\Hypertarget{class_bs_data_base_a5b9d1f21ce09adf2d34d83e6693a1bf4}\label{class_bs_data_base_a5b9d1f21ce09adf2d34d83e6693a1bf4}} 
+std\+::string {\bfseries test\+\_\+float} \mbox{[}k\+Total\+Float\mbox{]}
+\item 
+\mbox{\Hypertarget{class_bs_data_base_a739f85d6c97f7b77dc723ae40a465622}\label{class_bs_data_base_a739f85d6c97f7b77dc723ae40a465622}} 
+std\+::string {\bfseries test\+\_\+bool} \mbox{[}k\+Total\+Bool\mbox{]}
+\item 
+\mbox{\Hypertarget{class_bs_data_base_a426d5a8c569788bd4907de6519e9979c}\label{class_bs_data_base_a426d5a8c569788bd4907de6519e9979c}} 
+std\+::string {\bfseries tables} \mbox{[}k\+Total\+Tables\mbox{]}
+\item 
+\mbox{\Hypertarget{class_bs_data_base_aea64bc316e3718034a944808d42a5d62}\label{class_bs_data_base_aea64bc316e3718034a944808d42a5d62}} 
+std\+::string {\bfseries table\+\_\+login}
+\item 
+\mbox{\Hypertarget{class_bs_data_base_a984125c03c22e9bdb0cdf03fd2c85de9}\label{class_bs_data_base_a984125c03c22e9bdb0cdf03fd2c85de9}} 
+std\+::string {\bfseries table\+\_\+int}
+\item 
+\mbox{\Hypertarget{class_bs_data_base_aab57a59e9d1e91418fad6ff91ed66992}\label{class_bs_data_base_aab57a59e9d1e91418fad6ff91ed66992}} 
+std\+::string {\bfseries table\+\_\+float}
+\item 
+\mbox{\Hypertarget{class_bs_data_base_a6b9c236062306b99edb274395dc94c8f}\label{class_bs_data_base_a6b9c236062306b99edb274395dc94c8f}} 
+std\+::string {\bfseries table\+\_\+bool}
+\item 
+\mbox{\Hypertarget{class_bs_data_base_a372180ae4e2702b437dc6a8c2344f317}\label{class_bs_data_base_a372180ae4e2702b437dc6a8c2344f317}} 
+std\+::string {\bfseries path}
+\item 
+\mbox{\Hypertarget{class_bs_data_base_aee5e437130722efb0f7cdf82edfc9d9d}\label{class_bs_data_base_aee5e437130722efb0f7cdf82edfc9d9d}} 
+bool {\bfseries exists\+\_\+}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_bs_data_base_a36759e9c22600644a969d056bbd153b6}\label{class_bs_data_base_a36759e9c22600644a969d056bbd153b6}} 
+static std\+::string {\bfseries s\+\_\+result\+\_\+} \mbox{[}k\+Total\+Login\mbox{]}
+\item 
+\mbox{\Hypertarget{class_bs_data_base_ab6c1cdaff78f67a8c0e1e675a6340801}\label{class_bs_data_base_ab6c1cdaff78f67a8c0e1e675a6340801}} 
+static uint16\+\_\+t {\bfseries s\+\_\+total\+\_\+col\+\_\+}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+/$\ast$ Class database /$\ast$ Used to manage de database and charge and upload database 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_bs_data_base_ac5f694ee77291074040c2d7bfb494a2f}\label{class_bs_data_base_ac5f694ee77291074040c2d7bfb494a2f}} 
+\index{BsDataBase@{BsDataBase}!BsDataBase@{BsDataBase}}
+\index{BsDataBase@{BsDataBase}!BsDataBase@{BsDataBase}}
+\doxysubsubsection{\texorpdfstring{BsDataBase()}{BsDataBase()}}
+{\footnotesize\ttfamily Bs\+Data\+Base\+::\+Bs\+Data\+Base (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+METHODS. 
+
+constructor of class 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_bs_data_base_ae277e4dc75ea867a352e21e3c3b56060}\label{class_bs_data_base_ae277e4dc75ea867a352e21e3c3b56060}} 
+\index{BsDataBase@{BsDataBase}!callback@{callback}}
+\index{callback@{callback}!BsDataBase@{BsDataBase}}
+\doxysubsubsection{\texorpdfstring{callback()}{callback()}}
+{\footnotesize\ttfamily static int Bs\+Data\+Base\+::callback (\begin{DoxyParamCaption}\item[{void $\ast$}]{data,  }\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv,  }\item[{char $\ast$$\ast$}]{az\+Col\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+query to acces the database 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & $\ast$data pointer to data \\
+\hline
+{\em argc} & number of columns in the result set \\
+\hline
+{\em $\ast$$\ast$argv} & row\textquotesingle{}s data \\
+\hline
+{\em $\ast$$\ast$ac\+Col\+Name} & he column names \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o when job is done 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_bs_data_base_ae85b32270c44cec34545a7efc2c4305c}\label{class_bs_data_base_ae85b32270c44cec34545a7efc2c4305c}} 
+\index{BsDataBase@{BsDataBase}!create@{create}}
+\index{create@{create}!BsDataBase@{BsDataBase}}
+\doxysubsubsection{\texorpdfstring{create()}{create()}}
+{\footnotesize\ttfamily int Bs\+Data\+Base\+::create (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+creates the database if doesnt exist 
+
+\begin{DoxyReturn}{Returns}
+0 if the work is done 
+
+1 if there is an error openeing database 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_bs_data_base_aa0b470051e5134c47412755d77782cb2}\label{class_bs_data_base_aa0b470051e5134c47412755d77782cb2}} 
+\index{BsDataBase@{BsDataBase}!insertData@{insertData}}
+\index{insertData@{insertData}!BsDataBase@{BsDataBase}}
+\doxysubsubsection{\texorpdfstring{insertData()}{insertData()}}
+{\footnotesize\ttfamily int Bs\+Data\+Base\+::insert\+Data (\begin{DoxyParamCaption}\item[{char $\ast$}]{sql }\end{DoxyParamCaption})}
+
+
+
+insert the data 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$sql} & pointer to char to do the inserts \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 if the work is done 
+
+1 if there is an error openeing database 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_bs_data_base_a2da129406e34c4ee9e4d880a1b111bb7}\label{class_bs_data_base_a2da129406e34c4ee9e4d880a1b111bb7}} 
+\index{BsDataBase@{BsDataBase}!retrievingData@{retrievingData}}
+\index{retrievingData@{retrievingData}!BsDataBase@{BsDataBase}}
+\doxysubsubsection{\texorpdfstring{retrievingData()}{retrievingData()}}
+{\footnotesize\ttfamily void Bs\+Data\+Base\+::retrieving\+Data (\begin{DoxyParamCaption}\item[{const char $\ast$}]{sql }\end{DoxyParamCaption})}
+
+
+
+access to the contetnt of databse 
+
+\begin{DoxyReturn}{Returns}
+0 if the work is done 
+
+1 if there is an error openeing database Extract the info from the database to the program ~\newline
+ 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_bs_data_base_a87e06029ec2eaedcfa7a4011a4875b2f}\label{class_bs_data_base_a87e06029ec2eaedcfa7a4011a4875b2f}} 
+\index{BsDataBase@{BsDataBase}!db\_@{db\_}}
+\index{db\_@{db\_}!BsDataBase@{BsDataBase}}
+\doxysubsubsection{\texorpdfstring{db\_}{db\_}}
+{\footnotesize\ttfamily sqlite3$\ast$ Bs\+Data\+Base\+::db\+\_\+}
+
+database \mbox{\Hypertarget{class_bs_data_base_ab150b401c8f61d218f3a7869553ae965}\label{class_bs_data_base_ab150b401c8f61d218f3a7869553ae965}} 
+\index{BsDataBase@{BsDataBase}!err\_msg\_@{err\_msg\_}}
+\index{err\_msg\_@{err\_msg\_}!BsDataBase@{BsDataBase}}
+\doxysubsubsection{\texorpdfstring{err\_msg\_}{err\_msg\_}}
+{\footnotesize\ttfamily char$\ast$ Bs\+Data\+Base\+::err\+\_\+msg\+\_\+}
+
+the error message \mbox{\Hypertarget{class_bs_data_base_ad34ef1b2a24809d5b6d0140e7715fb9f}\label{class_bs_data_base_ad34ef1b2a24809d5b6d0140e7715fb9f}} 
+\index{BsDataBase@{BsDataBase}!rc\_@{rc\_}}
+\index{rc\_@{rc\_}!BsDataBase@{BsDataBase}}
+\doxysubsubsection{\texorpdfstring{rc\_}{rc\_}}
+{\footnotesize\ttfamily int Bs\+Data\+Base\+::rc\+\_\+}
+
+int to do the functions \mbox{\Hypertarget{class_bs_data_base_a02c57ecf1d8076e4a3b5204b19413c8b}\label{class_bs_data_base_a02c57ecf1d8076e4a3b5204b19413c8b}} 
+\index{BsDataBase@{BsDataBase}!sql\_@{sql\_}}
+\index{sql\_@{sql\_}!BsDataBase@{BsDataBase}}
+\doxysubsubsection{\texorpdfstring{sql\_}{sql\_}}
+{\footnotesize\ttfamily char$\ast$ Bs\+Data\+Base\+::sql\+\_\+}
+
+text to use 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/bs\+\_\+database.\+h\end{DoxyCompactItemize}

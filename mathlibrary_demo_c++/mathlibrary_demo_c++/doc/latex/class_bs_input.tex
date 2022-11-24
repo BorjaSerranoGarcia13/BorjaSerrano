@@ -1,0 +1,148 @@
+\hypertarget{class_bs_input}{}\doxysection{Bs\+Input Class Reference}
+\label{class_bs_input}\index{BsInput@{BsInput}}
+
+
+{\ttfamily \#include $<$bs\+\_\+input.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_bs_input_adefa0c088f27e155628dd1dc3be139c5}\label{class_bs_input_adefa0c088f27e155628dd1dc3be139c5}} 
+\mbox{\hyperlink{class_bs_input_adefa0c088f27e155628dd1dc3be139c5}{Bs\+Input}} ()
+\begin{DoxyCompactList}\small\item\em constructor of class \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bs_input_a2bb1e600e4df332e77d17b87dbb1209d}\label{class_bs_input_a2bb1e600e4df332e77d17b87dbb1209d}} 
+\mbox{\hyperlink{class_bs_input_a2bb1e600e4df332e77d17b87dbb1209d}{$\sim$\+Bs\+Input}} ()
+\begin{DoxyCompactList}\small\item\em Destructor used to initilizate the class. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bs_input_ae7f078c3d6e7e5562abf28b41c8a1398}\label{class_bs_input_ae7f078c3d6e7e5562abf28b41c8a1398}} 
+{\bfseries Bs\+Input} (const \mbox{\hyperlink{class_bs_input}{Bs\+Input}} \&copy)=delete
+\item 
+\mbox{\Hypertarget{class_bs_input_a2815ab35f1453d3e16c39dc778927dce}\label{class_bs_input_a2815ab35f1453d3e16c39dc778927dce}} 
+\mbox{\hyperlink{class_bs_input}{Bs\+Input}} \& {\bfseries operator=} (const \mbox{\hyperlink{class_bs_input}{Bs\+Input}} \&)=delete
+\item 
+void \mbox{\hyperlink{class_bs_input_a975e6d2f452f289f225eb799453c0edd}{mouse\+Button}} ()
+\begin{DoxyCompactList}\small\item\em get the control\+\_\+mouse \end{DoxyCompactList}\item 
+const uint8\+\_\+t \mbox{\hyperlink{class_bs_input_af7a9938342263f01250e45b26d3d1a3b}{mouse\+\_\+button}} ()
+\begin{DoxyCompactList}\small\item\em get the control\+\_\+mouse \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bs_input_a48fe84832bfc8e035b6a407367ffe21b}{set\+\_\+mouse\+\_\+button}} (uint8\+\_\+t control\+\_\+mouse)
+\begin{DoxyCompactList}\small\item\em set the control\+\_\+mouse \end{DoxyCompactList}\item 
+sf\+::\+Vector2i \mbox{\hyperlink{class_bs_input_a05d0c0138f9c9a055a6ba8baf98eadd5}{mouse\+\_\+position}} (sf\+::\+Render\+Window \&window)
+\begin{DoxyCompactList}\small\item\em get the mouse\+\_\+position \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bs_input_a220df9d3740241e2bc04e9cda33f60d9}{set\+\_\+mouse\+\_\+position}} (sf\+::\+Vector2i \mbox{\hyperlink{class_bs_input_a05d0c0138f9c9a055a6ba8baf98eadd5}{mouse\+\_\+position}})
+\begin{DoxyCompactList}\small\item\em set the mouse\+\_\+position \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bs_input_a52495b829341d7196cb9eee0e7a9ba30}\label{class_bs_input_a52495b829341d7196cb9eee0e7a9ba30}} 
+void \mbox{\hyperlink{class_bs_input_a52495b829341d7196cb9eee0e7a9ba30}{keyboard\+Key}} ()
+\begin{DoxyCompactList}\small\item\em detects controls in keypad \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bs_input_ac5afd3ad08e97c73fe6e4fc65ad1a2ec}\label{class_bs_input_ac5afd3ad08e97c73fe6e4fc65ad1a2ec}} 
+const uint8\+\_\+t \mbox{\hyperlink{class_bs_input_ac5afd3ad08e97c73fe6e4fc65ad1a2ec}{keyboard\+\_\+key}} ()
+\begin{DoxyCompactList}\small\item\em detects controls in keypad \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bs_input_a6c0a4ede9ba39feaf8e27a1657b71b86}\label{class_bs_input_a6c0a4ede9ba39feaf8e27a1657b71b86}} 
+void \mbox{\hyperlink{class_bs_input_a6c0a4ede9ba39feaf8e27a1657b71b86}{set\+\_\+keyboard\+\_\+key}} (uint8\+\_\+t \mbox{\hyperlink{class_bs_input_ac5afd3ad08e97c73fe6e4fc65ad1a2ec}{keyboard\+\_\+key}})
+\begin{DoxyCompactList}\small\item\em detects controls in keypad \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bs_input_a8afec76a8f35fe2165bc22c684a08eb7}\label{class_bs_input_a8afec76a8f35fe2165bc22c684a08eb7}} 
+void {\bfseries input} (sf\+::\+Render\+Window \&window)
+\item 
+\mbox{\Hypertarget{class_bs_input_a1504112fd29e3d2a92aa8639fd4c65be}\label{class_bs_input_a1504112fd29e3d2a92aa8639fd4c65be}} 
+void {\bfseries clear\+Input} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_bs_input_ada753dbe2c4f7ee99cb1ac916b01003c}{enabled\+\_\+keyboard\+\_\+}}
+\item 
+bool \mbox{\hyperlink{class_bs_input_a1344f9782ab6d308d903f8d09e23de30}{enabled\+\_\+mouse\+\_\+}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+/$\ast$ Class scene /$\ast$ manage evrything from the scene, gameplay 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_bs_input_af7a9938342263f01250e45b26d3d1a3b}\label{class_bs_input_af7a9938342263f01250e45b26d3d1a3b}} 
+\index{BsInput@{BsInput}!mouse\_button@{mouse\_button}}
+\index{mouse\_button@{mouse\_button}!BsInput@{BsInput}}
+\doxysubsubsection{\texorpdfstring{mouse\_button()}{mouse\_button()}}
+{\footnotesize\ttfamily const uint8\+\_\+t Bs\+Input\+::mouse\+\_\+button (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get the control\+\_\+mouse 
+
+\begin{DoxyReturn}{Returns}
+the control\+\_\+mouse 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_bs_input_a05d0c0138f9c9a055a6ba8baf98eadd5}\label{class_bs_input_a05d0c0138f9c9a055a6ba8baf98eadd5}} 
+\index{BsInput@{BsInput}!mouse\_position@{mouse\_position}}
+\index{mouse\_position@{mouse\_position}!BsInput@{BsInput}}
+\doxysubsubsection{\texorpdfstring{mouse\_position()}{mouse\_position()}}
+{\footnotesize\ttfamily sf\+::\+Vector2i Bs\+Input\+::mouse\+\_\+position (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{window }\end{DoxyParamCaption})}
+
+
+
+get the mouse\+\_\+position 
+
+\begin{DoxyReturn}{Returns}
+the mouse\+\_\+position 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_bs_input_a975e6d2f452f289f225eb799453c0edd}\label{class_bs_input_a975e6d2f452f289f225eb799453c0edd}} 
+\index{BsInput@{BsInput}!mouseButton@{mouseButton}}
+\index{mouseButton@{mouseButton}!BsInput@{BsInput}}
+\doxysubsubsection{\texorpdfstring{mouseButton()}{mouseButton()}}
+{\footnotesize\ttfamily void Bs\+Input\+::mouse\+Button (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get the control\+\_\+mouse 
+
+\begin{DoxyReturn}{Returns}
+the control\+\_\+mouse 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_bs_input_a48fe84832bfc8e035b6a407367ffe21b}\label{class_bs_input_a48fe84832bfc8e035b6a407367ffe21b}} 
+\index{BsInput@{BsInput}!set\_mouse\_button@{set\_mouse\_button}}
+\index{set\_mouse\_button@{set\_mouse\_button}!BsInput@{BsInput}}
+\doxysubsubsection{\texorpdfstring{set\_mouse\_button()}{set\_mouse\_button()}}
+{\footnotesize\ttfamily void Bs\+Input\+::set\+\_\+mouse\+\_\+button (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{control\+\_\+mouse }\end{DoxyParamCaption})}
+
+
+
+set the control\+\_\+mouse 
+
+
+\begin{DoxyParams}{Parameters}
+{\em control\+\_\+mouse} & value to set \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_bs_input_a220df9d3740241e2bc04e9cda33f60d9}\label{class_bs_input_a220df9d3740241e2bc04e9cda33f60d9}} 
+\index{BsInput@{BsInput}!set\_mouse\_position@{set\_mouse\_position}}
+\index{set\_mouse\_position@{set\_mouse\_position}!BsInput@{BsInput}}
+\doxysubsubsection{\texorpdfstring{set\_mouse\_position()}{set\_mouse\_position()}}
+{\footnotesize\ttfamily void Bs\+Input\+::set\+\_\+mouse\+\_\+position (\begin{DoxyParamCaption}\item[{sf\+::\+Vector2i}]{mouse\+\_\+position }\end{DoxyParamCaption})}
+
+
+
+set the mouse\+\_\+position 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mouse\+\_\+position} & value to set \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_bs_input_ada753dbe2c4f7ee99cb1ac916b01003c}\label{class_bs_input_ada753dbe2c4f7ee99cb1ac916b01003c}} 
+\index{BsInput@{BsInput}!enabled\_keyboard\_@{enabled\_keyboard\_}}
+\index{enabled\_keyboard\_@{enabled\_keyboard\_}!BsInput@{BsInput}}
+\doxysubsubsection{\texorpdfstring{enabled\_keyboard\_}{enabled\_keyboard\_}}
+{\footnotesize\ttfamily bool Bs\+Input\+::enabled\+\_\+keyboard\+\_\+}
+
+mouse\+\_\+pressed\+\_\+ \mbox{\Hypertarget{class_bs_input_a1344f9782ab6d308d903f8d09e23de30}\label{class_bs_input_a1344f9782ab6d308d903f8d09e23de30}} 
+\index{BsInput@{BsInput}!enabled\_mouse\_@{enabled\_mouse\_}}
+\index{enabled\_mouse\_@{enabled\_mouse\_}!BsInput@{BsInput}}
+\doxysubsubsection{\texorpdfstring{enabled\_mouse\_}{enabled\_mouse\_}}
+{\footnotesize\ttfamily bool Bs\+Input\+::enabled\+\_\+mouse\+\_\+}
+
+mouse\+\_\+pressed\+\_\+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/bs\+\_\+input.\+h\end{DoxyCompactItemize}
