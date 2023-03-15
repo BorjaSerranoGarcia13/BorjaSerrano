@@ -1,3 +1,4 @@
+
 App para móvil. Con el slider se mueve al jugador y con la flecha se salta.
 
 Contiene muchos niveles desbloqueables con progresión en el juego. Es un juego de 
@@ -11,5 +12,5 @@ Mobile app. With the slider the player moves and with the arrow he jumps.
 
 Contains many unlockable levels with in-game progression. It's a game of
 platforming in career mode. Dodge or kill enemies, collect collectibles,
-finish in the shortest possible time. Each level introduces new mechanics like
+finish in the shortest possible time. Each level introduces new mechanics like 
 jumping platforms, platforms that fall after touching them, saws...

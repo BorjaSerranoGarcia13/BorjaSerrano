@@ -1,0 +1,3 @@
+30 enemies
+5 shields
+5 speed_player
